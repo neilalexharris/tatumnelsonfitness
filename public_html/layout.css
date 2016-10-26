@@ -1,0 +1,194 @@
+body {
+	background-color: #333;
+	font-family:Helvetica,sans-serif;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+}
+
+table {
+	background-color: #000;
+	width: 900px;
+	text-align:left;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.header { 	
+	padding-left: 10px;
+	vertical-align:top;
+}
+
+.logo{ 
+	
+	background-color:#333;
+	margin:0px;
+	border-collapse:collapse;	
+}
+
+table.navbar { 
+	height: 30px;
+	background-color:#000;
+}
+
+td.navbar { 
+	padding-left: 30px;
+	background-color:#000;
+	vertical-align:middle;
+}
+
+.greentext {
+	color:#9F0;
+}
+
+.redtext {
+	color:#F00;	
+}
+
+.pinktext {
+	color:#F06;	
+}
+
+.orangetext {
+	color:#F90;	
+}
+
+.lightbluetext {
+	color:#06F;	
+}
+
+.goldtext {
+	color:#FF0;	
+}
+
+.purpletext {
+	color:#96F;	
+}
+
+.whitetext {
+	color:#FFF;	
+}
+
+.greytext {
+	color:#666;	
+}
+
+
+table.main { 
+	border-top:1px solid #333;
+	border-top-width:thick;
+	border-bottom-width:thick;
+}
+
+
+table.nested {
+	margin-left:0px;
+	border:3px solid #333;
+	width: 300px;	
+	vertical-align:top;
+}
+
+	
+td.main1 {	
+	vertical-align:top;
+	padding: 40px;
+																																																								
+}
+
+.greyborder {
+	border-bottom:1px solid #333;	
+	vertical-align:top;
+	padding:20px;
+																																																								
+}
+
+.blogmenu {
+	border-bottom:1px solid #333;
+	vertical-align:top;
+	padding:10px;
+																																																								
+}
+
+.block_lightgrey {
+	background-color:#333;
+	padding:20px;
+
+}
+
+.footer { 
+	height: 40px;
+	border-color:#333;
+	text-align:center;
+}
+
+h1 {
+	font-size: 18px;	
+	font-weight:normal;
+	margin:0px 0px 0px 0px;	
+}
+
+h2 {
+	font-size: 14px;	
+	font-weight:bold;
+	margin:0px 0px 0px 0px;	
+}
+
+h3 {
+	font-size: 16px;	
+	font-weight:normal;
+	margin:0px 0px 0px 0px;	
+}
+
+p {
+	
+	color:#FFF;
+	margin:0px 0px 0px 0px;
+}
+
+
+.bodytext {
+	font-family:Arial;
+	font-size:12px;
+	margin:0px 0px 0px 0px;
+}
+
+ul { 
+	color:#FFF;
+	list-style-position: inside;
+} 
+
+img.padding {
+	padding:15px;
+}
+
+img {
+	border-style: none;
+}
+		
+
+a:link {
+	text-decoration:none;
+	border:none;
+		
+}
+
+a:visited {
+	text-decoration:none;
+	border:none;
+}
+
+a:hover {
+	color:#FFF;
+	border::none;
+}
+
+.split {
+	word-spacing: 20px;
+	color:#666;
+}
+
+.footer_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+		<!--#include file="header.html"-->
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-23430411-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	  
+	</head>
+
+	<body>
+
+	<table class="greyborder" cellpadding="20", cellspacing="0">
+		<tr> 
+	 		<td class="header">
+				<img src="Images/Pngs/main_orange.png"/>
+			</td>
+			<td class="header" width="250">
+				<br/>
+				<h1 class="orangetext">m: <span class="split">07738324442</span></h1>
+				<h1 class="orangetext">e: <span class="split">tate@tatumnelson.co.uk</span></h1>
+			</td>
+	  	</tr>
+	</table>
+
+	<table class="navbar">
+		<tr>
+			<td class = "navbar">
+				<h3>
+					<a class="orangetext" href="index.htm">Home</a><span class="split"> | </span> 
+					<a class="orangetext" href="philosophy.htm">Philosophy</a><span class="split"> | </span> 
+					<a class="orangetext" href="personal_training_services.htm">Services</a><span class="split"> | </span> 
+					<a class="orangetext" href="personal_training_packages.htm">Packages</a><span class="split"> | </span>
+					<a class="orangetext" href="testimonials.htm">Testimonials</a><span class="split"> | </span>
+					<a class="orangetext" href="blog.htm">Blog</a><span class="split"> | </span>
+					<a class="orangetext" href="contact.htm">Contact</a>
+				</h3>
+    		</td>
+  		</tr>
+	</table>
+
+	<table class="main" cellpadding="0", cellspacing="0">
+		<tr>
+	    	<td>
+				<img src="Images/Photos/neil_banner_text.png"/>
+			</td>
+	    </tr>
+	</table>
+
+	<table class ="main" cellpadding="0", cellspacing="10">
+		<tr>
+			<td class="greyborder">
+				<div class="orangetext">
+			    	<h1 class="orangetext">"Get Gorgeous" Package</h1>
+				</div>
+				<p><b>10 sessions (including dietary advice)</b></p>
+			    <br/>
+			
+				<p>Want to tone up, lose weight, and look fabulous?</p>
+				<br/>
+				
+				<p>If these are your three wishes, then this is the personal training package
+				to grant them. Over 12 sessions Tatum will help you get into shape, sculpt
+				your body to get the results you want. She will also provide dietary advice
+				to get you on the road to fabulous.</p>
+				<br/>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="greyborder">
+				<div class="orangetext">
+					<h1>"Beach Body Fit" Package</h1></div>
+			<p><b>10 sessions (including dietary advice)</b></p>
+			<br/>
+			<p>Whether male or female everyone has an element of self consciousness when it
+			comes to stripping down to swimwear and holiday outfits.</p><br/>
+			<p>Take this anxiety away and get the body you want with the Beach Body Fit
+			package from Tatum. Lose weight and inches, tone up and feel a whole lot
+			better.
+			</p>
+			<br/>
+			</td>
+		</tr>
+
+<tr>
+	<td class="greyborder">
+	<div class="orangetext">
+	<h1>Bridal Package <font class="bodytext">- a must for all brides to be</font></h1></div>
+	<p><b>10 sessions (including dietary advice)</b></p>
+	<br/>
+	<p>Looking your best for your special day rates very high on the agenda for
+	any wedding preparation.</p><br/>
+	<p>If you have a wedding coming up, this personal training package will make
+	sure there is one less thing for you to worry about.</p><br/> 
+	<p>Tone up, lose weight and inches, feel better, ensure you get that perfect
+	fit with your dress and get dietary advice to keep the pounds off. 
+	</p>
+	<br/>
+	</td>
+</tr>
+</table>
+
+<table class="main" cellspacing="10"
+	<tr>
+	<td align="center">
+	<p class="orangetext"><b>Elite Personal Training Services in Sevenoaks, Tonbridge, Tunbridge Wells & West London</b></p>
+	</td>
+	</tr>
+</table>
+
+<table class="main">
+<tr>
+<td class="footer">
+<p class="footer_text">© Tatum Nelson Fitness 2011 | Site design by <a class="footer_text" href="http://www.thirteenclouds.com">Thirteen Clouds</a> | <a class="footer_text" href="termsandconditions.htm">Terms & Conditions</a></p>
+<img src="Images/Pngs/main_grayscale_small.png" alt="tnf_logo" align="center"/>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

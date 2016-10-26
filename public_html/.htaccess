@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteCond %{http_host} ^tatumnelson.co.uk [NC]
+RewriteRule ^index\.htm$ index.php [R=301,L]
+
+RewriteRule ^index\.shtml$ index.php [R=301,L]

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Scripts
+Disallow: /1
+Disallow: /cgi-bin
+
+sitemap: http://www.tatumnelson.co.uk/sitemap.xml
+
