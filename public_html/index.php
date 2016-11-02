@@ -55,10 +55,7 @@
 						</li>
 						<li>
 							<a href="testimonials.php"><img src="Images/Photos/cj_tate_banner_text.png" alt="Click to see Colin Jackson's full testimonial"/></a>
-						</li>										
-						<!--<li>
-							<a href="personal_training_services.htm#triathlon"><img src="Images/Photos/zipp_banner_text.gif" alt="Triathlon Conditioning"/></a>
-						</li>-->						
+						</li>																
 					</ul>
 				</td>
 			</tr>
