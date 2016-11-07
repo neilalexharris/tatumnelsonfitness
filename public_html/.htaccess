@@ -3,7 +3,5 @@ DirectoryIndex index.php
 
 RewriteEngine on
 
-RewriteCond %{http_host} ^tatumnelson.co.uk [NC]
-RewriteRule ^index\.htm$ index.php [R=301,L]
-
-RewriteRule ^index\.shtml$ index.php [R=301,L]
+RewriteCond %{HTTP_HOST} !^www\. 
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
