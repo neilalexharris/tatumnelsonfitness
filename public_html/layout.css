@@ -8,10 +8,8 @@ body {
 
 table {
 	background-color: #000;
-	max-width: 900px;
+	width: 1200px;
 	text-align:left;
-	margin-right:auto;
-	margin-left:auto;
 }
 
 .header { 	
@@ -20,7 +18,6 @@ table {
 }
 
 .logo{ 
-	
 	background-color:#333;
 	margin:0px;
 	border-collapse:collapse;	

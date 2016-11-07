@@ -3,7 +3,7 @@
 	 	<td class="header">
 			<img src="<?php echo $logoPath; ?>"/>
 		</td>
-		<td class="header" width="250">
+		<td class="header">
 			<br/>
 			<h1 class="<?php echo $colClass; ?>">m: <span class="split">07738324442</span></h1>
 			<h1 class="<?php echo $colClass; ?>">e: <span class="split">tate@tatumnelson.co.uk</span></h1>
