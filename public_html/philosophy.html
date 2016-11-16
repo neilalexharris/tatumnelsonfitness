@@ -1,22 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="format-detection" content="telephone=no" />
-		<meta name="description" content="Tatum Nelson is personal trainer to Colin Jackson and operates in
-		the Sevenoaks and Tunbridge Wells area of Kent" />
-		<meta name="keywords" content="tatum nelson fitness personal trainer sevenoaks tunbridge wells 
-		tonbridge kent colin jackson weight loss sports conditioning pilates ballet athletics" />
-		<title>Tatum Nelson Fitness | Personal Trainer | Pilates Instructor | Sevenoaks | Tonbridge | Tunbridge Wells</title>
+		<div id="header"></div>
 
-		<link rel="stylesheet" type="text/css" href="layout.css" />
-		<link rel="stylesheet" href="css/indexonly.css"  type="text/css" media="all" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
 		
 		<style>
-		  .show_obj { display:"block" }
-		  .hide_obj { display:"none" }
+			.resize {
+				width:100%;
+				height:auto;
+			}
 		</style>
+		
+		<script type="text/javascript">
+			$(document).ready(
+				function(){
+					$('#header').load('header.html');
+					$('#menu').load('menu.html', function(){
+						$(".highlight").addClass("pink")
+						});
+					/*$('#main').load('main.html', function(){
+						$(".highlight").addClass("pink")
+						});*/
+					$('#social').load('social.html');
+					$("#footer").load('footer.html');
+				});
+		</script>		
 
 		<script type="text/javascript">
 
@@ -31,125 +42,133 @@
 		  })();
 
 		</script>
-
 	</head>
 
 	<body>
-		<div style="text-align:center">
-			
-			<?php include "menu.php"; ?>
-
-			<table class="main" cellpadding="0", cellspacing="0">
-				<tr>
-				    <td>
-						<img src="Images/Photos/philo_banner_text.png"/>
-					</td>
-				</tr>
-			</table>
-			
-			<table class="main" cellpadding="0", cellspacing="10">
-				<tr>
-					<td>
-						<h1 class="<?php echo $colClass; ?>" align="center">- My Foundations to Fitness -</h1>
-					</td>
-				</tr>
-			</table>
-
-			<table class="main" cellspacing="10">
-				<tr style="vertical-align:top;">
-					<td style="border:1px solid #333; padding:10px;" width="250">
-						
-						<h1 class="<?php echo $colClass; ?>">Bodyweight Strength</h1>
-						<br/>
-						
-						<p>When it comes to strength, the ability to master one's own bodyweight is often lost, and the focus switches to mastering a barbell, or weighted machine. 
-						By isolating muscles, people can develop imbalances in muscular strength and often suffer injuries. I use equipment - such as the 
-						<a class="<?php echo $colClass; ?>" href="http://www.trxtraining.com/" target="blank">TRX</a> - to assist in building supreme total body strength, balance 
-						and stability. By working the body unilaterally I ensure everyone has a stable base from which to develop and progress.</p>
-						<br/>
-
-						<p>At <font class="<?php echo $colClass; ?>">Tatum Nelson Fitness</font>, the focus is on total body strength, and attaining power that belies ones size.</p> 
-						
-					</td>
-
-					<td style="border:1px solid #333; padding:10px;" width="250">
-						
-						<h1 class="<?php echo $colClass; ?>">Core Stability</h1>
-						<br/>
-				
-						<p>A strong core forms the platform from which a high level of fitness can be built and is as important 
-						for a casual gym-goer as it is for an Olympic Athlete.</p>
-						<br/>
-	
-						<p>Without developing the core, fitness gains will be limited, progression will be slow and 
-						the risk of injury will increase.</p>
-						<br/>
-	
-						<p>At <font class="<?php echo $colClass; ?>">Tatum Nelson Fitness</font>, foundations will be built so the client can continue to achieve.</p>
-						
-					</td>
-
-					<td style="border:1px solid #333; padding:10px;" width="250">
-						<h1 class="<?php echo $colClass; ?>">Cardiovascular Fitness</h1>
-						<br/>
-							
-						<p>Cardiovascular fitness plays a leading role in overall health, and is often neglected in 
-						today's busy lifestyles.</p>
-						<br/>
-
-						<p>Tatum will ensure this is not the case and through her training regimes she will include 
-						elements to nurture and improve this whether it be apparent to you, or cleverly disguised 
-						for the person who hates cardio work!</p>
-						<br/>
-
-						<p>At <font class="<?php echo $colClass; ?>">Tatum Nelson Fitness</font> cardiovascular health will lead to you feeling better, having more 
-						energy and losing weight as an added benefit!</p>
- 		 
-					</td>
-				</tr>
-			</table>
-
-			<table class="main" cellpadding="10", cellspacing="10">
-				<tr>
-					<td>
-						<h1 class="<?php echo $colClass; ?>">The Way I Work</h1><br/>
-
-						<p>Tatum has developed a unique, effective approach to fitness that has proven success.</p>
-						<br/>
-
-						<p>She brings together her background as an elite athlete and her years of studying ballet to create
-						the perfect full body work out that will leave you feeling invigorated!</p>
-						<br/>
-
-						<p>Both men and women can benefit from Tatum's approach - it is simple:</p>
-						<br/>
-
-						<p><h1 class="<?php echo $colClass; ?>">> Tatum Nelson Fitness for Him</h1>
-						<p>"I have trained alongside the best 
-						male athletes in the world, I have spent time studying and learning how they develop their 
-						physiques, and for male clients I place more emphasis on this skill set honing an enviable physique 
-						and gaining superior strength."</p>
-						<br/>
-
-						<p><h1 class="<?php echo $colClass; ?>">> Tatum Nelson Fitness For Her</h1>
-						<p>"I practised ballet for years, and 
-						reached elementary level, the highest grade that can be taken. My passion for dance and my 
-						experience of the amazing benefits it can have on the way you not only feel but also how your body 
-						looks has led me to integrate it into my workouts. Basing more of the workout on ballet to develop 
-						lean, beautiful, elongated muscles."</p>
-						<br/>
-
-						<p>Of course there's nothing to say the emphasis has to be this way! I will tailor the workout 
-						to suit your needs.</p>
-						<br/>
-
-						<p><font class="<?php echo $colClass; ?>">Tatum Nelson Fitness</font> - where fitness is a lifestyle.</p>
-					</td>
-				</tr>
-			</table>
-
-			<?php include "footer.php"; ?>
-
+		
+		<div id="header" class="row">
+			<div id="logo" class="col-5">
+				<img src="Images/Pngs/main_pink.png"/>
+			</div>
+			<div class="col-3"></div>
+			<div id="contact_details" class="col-4">
+				<br/>
+				<h3 class="pink">m: <span class="split">07738324442</span></h3>
+				<h3 class="pink">e: <span class="split">tate@tatumnelson.co.uk</span></h3>
+			</div>
 		</div>
+		
+		<div id="menu" class="pink"></div>
+		
+		<div class="row">
+			<img class="center resize" src="Images/Photos/philo_banner_text.png"/>
+		</div>
+		
+		<div id="main">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="block_title" align="center">- My Foundations to Fitness -</h1>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-4 pad-block">	
+					<h3 class="block_title">Bodyweight Strength</h1>
+					</br>
+					
+					<p>When it comes to strength, the ability to master one's own bodyweight is often lost, and the focus switches to mastering a barbell, or weighted machine. 
+					By isolating muscles, people can develop imbalances in muscular strength and often suffer injuries. I use equipment - such as the 
+					<a class="pink" href="http://www.trxtraining.com/" target="blank">TRX</a> - to assist in building supreme total body strength, balance 
+					and stability. By working the body unilaterally I ensure everyone has a stable base from which to develop and progress.</p>
+					<br/>
+
+					<p>At <font class="pink">Tatum Nelson Fitness</font>, the focus is on total body strength, and attaining power that belies ones size.</p> 
+				</div>
+			
+				<div class="col-4 pad-block">
+					<h3 class="block_title">Core Stability</h1>
+					<br/>
+
+					<p>A strong core forms the platform from which a high level of fitness can be built and is as important 
+					for a casual gym-goer as it is for an Olympic Athlete.</p>
+					<br/>
+
+					<p>Without developing the core, fitness gains will be limited, progression will be slow and 
+					the risk of injury will increase.</p>
+					<br/>
+
+					<p>At <font class="pink">Tatum Nelson Fitness</font>, foundations will be built so the client can continue to achieve.</p>
+				</div>
+
+				<div class="col-4 pad-block">
+					<h3 class="block_title">Cardiovascular Fitness</h1>
+					<br/>
+			
+					<p>Cardiovascular fitness plays a leading role in overall health, and is often neglected in 
+					today's busy lifestyles.</p>
+					<br/>
+
+					<p>Tatum will ensure this is not the case and through her training regimes she will include 
+					elements to nurture and improve this whether it be apparent to you, or cleverly disguised 
+					for the person who hates cardio work!</p>
+					<br/>
+
+					<p>At <font class="pink">Tatum Nelson Fitness</font> cardiovascular health will lead to you feeling better, having more 
+					energy and losing weight as an added benefit!</p>
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="col-12">
+					<h1 class="block_title" align="center">The Way I Work</h1>
+					</br>
+				</div>
+			</div>
+
+			<p>Tatum has developed a unique, effective approach to fitness that has proven success.</p>
+			<br/>
+
+			<p>She brings together her background as an elite athlete and her years of studying ballet to create
+			the perfect full body work out that will leave you feeling invigorated!</p>
+			<br/>
+
+			<p>Both men and women can benefit from Tatum's approach - it is simple:</p>
+			<br/>
+			
+			<div class="row">
+				<div class="col-6 pad-block">
+					<h3 class="block_title">Tatum Nelson Fitness for Him</h3>
+					</br>
+					<p>"I have trained alongside the best 
+					male athletes in the world, I have spent time studying and learning how they develop their 
+					physiques, and for male clients I place more emphasis on this skill set honing an enviable physique 
+					and gaining superior strength."</p>
+					<br/>
+				</div>
+				
+				<div class="col-6 pad-block">
+					<h3 class="block_title">Tatum Nelson Fitness For Her</h3>
+					</br>
+					<p>"I practised ballet for years, and 
+					reached elementary level, the highest grade that can be taken. My passion for dance and my 
+					experience of the amazing benefits it can have on the way you not only feel but also how your body 
+					looks has led me to integrate it into my workouts. Basing more of the workout on ballet to develop 
+					lean, beautiful, elongated muscles."</p>
+					<br/>
+				</div>
+			</div>
+
+			<p>Of course there's nothing to say the emphasis has to be this way! I will tailor the workout 
+			to suit your needs.</p>
+			<br/>
+
+			<p><font class="pink">Tatum Nelson Fitness</font> - where fitness is a lifestyle.</p>
+			
+		</div>
+		
+		<div id="social"></div>
+
+		<div id="footer" class="pink"></div>
+
 	</body>
 </html>
