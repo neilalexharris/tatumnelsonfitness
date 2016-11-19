@@ -3,22 +3,24 @@
 	<head>
 		
 		<div id="header"></div>
+		
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 
-		<script type="text/javascript">
-			$(document).ready(
-				function(){
-					$('#header').load('header.html');
-					$('#menu').load('menu.html');
-					$('#main').load('main.html', function(){
-						$(".highlight").addClass("green")
-						});
-					$('#social').load('social.html');
-					$("#footer").load('footer.html');
-				});
-		</script>		
+	  <script type="text/javascript">
+	  	$(document).ready(
+	  		function(){
+	  			$('#header').load('header.html');
+	  			$('#menu').load('menu.html');
+	  			$('#main').load('main.html', function(){
+	  				$(".highlight").addClass("green")
+	  				});
+	  			$('#social').load('social.html');
+	  			$("#footer").load('footer.html');
+	  		});
+	  </script>		
 
 		<script type="text/javascript">
 
@@ -57,7 +59,9 @@
 		
 		<div id="main" class="green"></div>
 		
-		<div id="social"></div>
+		<div id="social">
+			<ul class="social"></ul>
+		</div>
 
 		<div id="footer" class="green"></div>
 
