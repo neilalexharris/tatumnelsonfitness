@@ -136,15 +136,14 @@ a:hover {
 	padding-bottom:10px;
 	text-align:right;
 }	
-	
-#header { 	
-	display: flex;
-	flex-wrap: wrap;
-}
 
 #logo { 
 	margin:0px;
-	max-width:486px;	
+	width:500px;	
+}
+
+#contact_details {
+	width:320px;
 }
 
 #footer { 
@@ -235,7 +234,7 @@ a:hover {
 }
 
 .split {
-	word-spacing: 20px;
+	word-spacing:10px;
 	color:#FFF;
 }
 
