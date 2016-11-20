@@ -11,13 +11,17 @@
 			$(document).ready(
 				function(){
 					$('#header').load('header.html');
-					$('#menu').load('menu.html', function(){
-						$(".highlight").addClass("lightblue")
-						});
-					$('#social').load('social.html');
+					$('#menu').load('menu.html', highlightClass);
+					$('#social').load('social.html', highlightClass);
 					$("#footer").load('footer.html');
 				});
-		</script>		
+		</script>
+		
+		<script>
+			function highlightClass(){
+				$('.highlight').addClass("lightblue");
+			}
+		</script>
 
 		<script type="text/javascript">
 
@@ -37,11 +41,10 @@
 	<body>
 		
 		<div id="header" class="row">
-			<div id="logo" class="col-5">
+			<div id="logo">
 				<img src="Images/Pngs/main_lightblue.png"/>
 			</div>
-			<div class="col-3"></div>
-			<div id="contact_details" class="col-4">
+			<div id="contact_details">
 				<br/>
 				<h3 class="lightblue">m: <span class="split">07738324442</span></h3>
 				<h3 class="lightblue">e: <span class="split">tate@tatumnelson.co.uk</span></h3>
@@ -51,10 +54,11 @@
 		<div id="menu" class="lightblue"></div>
 		
 		<div id="main" class="lightblue">
-			<img class="padding" src="Images/Photos/tatum_profile_rounded2_small.png" width="150" height="163" align="right" alt="Tatum Nelson"/>
-		    <a name="about"><h1 class="<?php echo $colClass; ?>">About Me</h1></a>
+			<h1 class="lightblue">About Me</h1>
 			<br/>
-
+			
+			<img class="img-pad" src="Images/Photos/tatum_profile_rounded2_small.png" align="right" alt="Tatum Nelson"/>
+			
 			<p>Having a wealth of experience as an elite athlete over 100m, 200m and 400m, Tatum competed for Great Britain and
 			England on many occasions and she offers a rare insight into the world of elite sport</p>
 			<br/>
@@ -74,7 +78,7 @@
 
 			<p>Also a trained dancer, Tatum completed ballet training to Elementary Level, and it was here that her 
 			passion for fitness began</p>
-			</br>
+			</br>	
 		</div>
 		
 		<div id="social"></div>

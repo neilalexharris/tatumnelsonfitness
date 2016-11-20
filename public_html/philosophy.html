@@ -11,15 +11,15 @@
 			$(document).ready(
 				function(){
 					$('#header').load('header.html');
-					$('#menu').load('menu.html', function(){
-						$(".highlight").addClass("pink")
-						});
-					/*$('#main').load('main.html', function(){
-						$(".highlight").addClass("pink")
-						});*/
-					$('#social').load('social.html');
+					$('#menu').load('menu.html', highlightClass);
+					$('#social').load('social.html', highlightClass);
 					$("#footer").load('footer.html');
 				});
+		</script>
+		<script>
+			function highlightClass(){
+				$('.highlight').addClass("pink");
+			}
 		</script>		
 
 		<script type="text/javascript">
@@ -43,7 +43,6 @@
 			<div id="logo" class="col-5">
 				<img src="Images/Pngs/main_pink.png"/>
 			</div>
-			<div class="col-3"></div>
 			<div id="contact_details" class="col-4">
 				<br/>
 				<h3 class="pink">m: <span class="split">07738324442</span></h3>

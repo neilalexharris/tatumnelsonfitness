@@ -10,7 +10,7 @@
 
 .row {
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	width:100%;
 }
 
@@ -92,10 +92,11 @@ p {
 	margin:0px 0px 0px 0px;
 }
 
-ul { 
-	color:#FFF;
-	list-style-position: inside;
-} 
+.social_list li {
+	width:50px;
+	text-align:center;
+	display: inline-block;
+}
 
 img {
 	border-style: none;
@@ -139,7 +140,7 @@ a:hover {
 
 #logo { 
 	margin:0px;
-	width:500px;	
+	width:750px;	
 }
 
 #contact_details {
@@ -214,6 +215,10 @@ a:hover {
 
 .pad-block {
 	padding:20px;
+}
+
+.img-pad {
+	padding:40px;
 }
 
 .greyborder {
