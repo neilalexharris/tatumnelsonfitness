@@ -221,6 +221,18 @@ a:hover {
 	padding:40px;
 }
 
+.back-image {
+	position: relative;
+	width: 100%;
+}
+
+.text-overlay {
+	position: absolute;
+	top:50px;
+	left:50px;
+	color:#000;
+}
+
 .greyborder {
 	border-bottom:1px solid #333;	
 	vertical-align:top;
