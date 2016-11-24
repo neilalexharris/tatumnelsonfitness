@@ -14,6 +14,19 @@
 					$('#menu').load('menu.html', highlightClass);
 					$('#social').load('social.html', highlightClass);
 					$("#footer").load('footer.html');
+					$(".dynamic").hide();
+				});
+			
+			$(document).ready(
+				function(){
+					$('#found_header').click(
+						function(){
+							$('#found_text').slideToggle(1000)
+							});
+					$('#work_header').click(
+						function(){
+							$('#work_text').slideToggle(1000)
+							});		
 				});
 		</script>
 		<script>
@@ -57,15 +70,15 @@
 		</div>
 		
 		<div id="main">
-			<div class="row">
+			<div id="found_header" class="row toggle">
 				<div class="col-12">
-					<h1 class="block_title" align="center">- My Foundations to Fitness -</h1>
+					<a class="pink" href="#/"><h1 class="block_title" align="center">- My Foundations to Fitness -</h1></a>
 				</div>
 			</div>
 			
-			<div class="row">
+			<div id="found_text" class="row dynamic">
 				<div class="col-4 pad-block">	
-					<h3 class="block_title">Bodyweight Strength</h1>
+					<h3 class="block_title pink">Bodyweight Strength</h1>
 					</br>
 					
 					<p>When it comes to strength, the ability to master one's own bodyweight is often lost, and the focus switches to mastering a barbell, or weighted machine. 
@@ -78,7 +91,7 @@
 				</div>
 			
 				<div class="col-4 pad-block">
-					<h3 class="block_title">Core Stability</h1>
+					<h3 class="block_title pink">Core Stability</h1>
 					<br/>
 
 					<p>A strong core forms the platform from which a high level of fitness can be built and is as important 
@@ -93,7 +106,7 @@
 				</div>
 
 				<div class="col-4 pad-block">
-					<h3 class="block_title">Cardiovascular Fitness</h1>
+					<h3 class="block_title pink">Cardiovascular Fitness</h1>
 					<br/>
 			
 					<p>Cardiovascular fitness plays a leading role in overall health, and is often neglected in 
@@ -110,52 +123,53 @@
 				</div>
 			</div>
 			</br>
-			<div class="row">
+			<div id="work_header" class="row toggle">
 				<div class="col-12">
-					<h1 class="block_title" align="center">The Way I Work</h1>
-					</br>
+					<a class="pink" href="#/"><h1 class="block_title" align="center">- The Way I Work -</h1></a>
 				</div>
 			</div>
-
-			<p>Tatum has developed a unique, effective approach to fitness that has proven success.</p>
-			<br/>
-
-			<p>She brings together her background as an elite athlete and her years of studying ballet to create
-			the perfect full body work out that will leave you feeling invigorated!</p>
-			<br/>
-
-			<p>Both men and women can benefit from Tatum's approach - it is simple:</p>
-			<br/>
-			
-			<div class="row">
-				<div class="col-6 pad-block">
-					<h3 class="block_title">Tatum Nelson Fitness for Him</h3>
+			<div id="work_text" class="row dynamic">
+				<div>
 					</br>
-					<p>"I have trained alongside the best 
-					male athletes in the world, I have spent time studying and learning how they develop their 
-					physiques, and for male clients I place more emphasis on this skill set honing an enviable physique 
-					and gaining superior strength."</p>
-					<br/>
+					<p>Tatum has developed a unique, effective approach to fitness that has proven success.</p>
+					</br>
+
+					<p>She brings together her background as an elite athlete and her years of studying ballet to create
+					the perfect full body work out that will leave you feeling invigorated!</p>
+					</br>
+
+					<p>Both men and women can benefit from Tatum's approach - it is simple:</p>
+					</br>
 				</div>
+				<div class="row">
+					<div class="col-6 pad-block">
+						<h3 class="block_title pink">Tatum Nelson Fitness for Him</h3>
+						</br>
+						<p>"I have trained alongside the best 
+						male athletes in the world, I have spent time studying and learning how they develop their 
+						physiques, and for male clients I place more emphasis on this skill set honing an enviable physique 
+						and gaining superior strength."</p>
+						</br>
+					</div>
 				
-				<div class="col-6 pad-block">
-					<h3 class="block_title">Tatum Nelson Fitness For Her</h3>
-					</br>
-					<p>"I practised ballet for years, and 
-					reached elementary level, the highest grade that can be taken. My passion for dance and my 
-					experience of the amazing benefits it can have on the way you not only feel but also how your body 
-					looks has led me to integrate it into my workouts. Basing more of the workout on ballet to develop 
-					lean, beautiful, elongated muscles."</p>
-					<br/>
+					<div class="col-6 pad-block">
+						<h3 class="block_title pink">Tatum Nelson Fitness For Her</h3>
+						</br>
+						<p>"I practised ballet for years, and 
+						reached elementary level, the highest grade that can be taken. My passion for dance and my 
+						experience of the amazing benefits it can have on the way you not only feel but also how your body 
+						looks has led me to integrate it into my workouts. Basing more of the workout on ballet to develop 
+						lean, beautiful, elongated muscles."</p>
+						</br>
+					</div>
 				</div>
-			</div>
-
-			<p>Of course there's nothing to say the emphasis has to be this way! I will tailor the workout 
-			to suit your needs.</p>
-			<br/>
-
-			<p><font class="pink">Tatum Nelson Fitness</font> - where fitness is a lifestyle.</p>
 			
+				<p>Of course there's nothing to say the emphasis has to be this way! I will tailor the workout 
+				to suit your needs.</p>
+				</br>
+
+				<p><font class="pink">Tatum Nelson Fitness</font> - where fitness is a lifestyle.</p>
+			</div>
 		</div>
 		
 		<div id="social"></div>

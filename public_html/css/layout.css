@@ -10,7 +10,7 @@
 
 .row {
 	display: flex;
-	/*flex-wrap: wrap;*/
+	flex-wrap: wrap;
 	width:100%;
 }
 
@@ -118,6 +118,11 @@ a:hover {
 	border::none;
 }
 
+.toggle:hover {
+	color:#000;
+	background-color:#F06;
+}
+
 /*div {
 	padding-top:10px;
 	padding-bottom:10px;
@@ -207,7 +212,6 @@ a:hover {
 
 .block_title {
 	border:1px solid #FFF;
-	color:#F06;
 	text-align:center;
 	height:50px;
 	line-height:50px;
