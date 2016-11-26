@@ -2,7 +2,7 @@
 <html>
 	<head>
 		
-		<div id="header"></div>
+		<div id="head"></div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
@@ -10,10 +10,11 @@
 		<script type="text/javascript">
 			$(document).ready(
 				function(){
+					$('#head').load('head.html');
 					$('#header').load('header.html');
 					$('#menu').load('menu.html', highlightClass);
 					$('#social').load('social.html', highlightClass);
-					$("#footer").load('footer.html');
+					$("#footer").load('footer.html', highlightClass);
 					$(".dynamic").hide();
 				});
 			
@@ -52,16 +53,7 @@
 
 	<body>
 		
-		<div id="header" class="row">
-			<div id="logo" class="col-5">
-				<img src="Images/Pngs/main_pink.png"/>
-			</div>
-			<div id="contact_details" class="col-4">
-				<br/>
-				<h3 class="pink">m: <span class="split">07738324442</span></h3>
-				<h3 class="pink">e: <span class="split">tate@tatumnelson.co.uk</span></h3>
-			</div>
-		</div>
+		<div id="header"></div>
 		
 		<div id="menu" class="pink"></div>
 		
