@@ -1,6 +1,6 @@
 * {
 	/*background-color: #000;*/
-	font-family: "Courier New";
+	font-family: 'Chivo', sans-serif;
 	max-width:1200px;
 	-webkit-box-sizing: border-box;
 	-mozox-sizing: border-box;
@@ -119,7 +119,6 @@ a:hover {
 }
 
 .toggle:hover {
-	color:#000;
 	background-color:#F06;
 }
 
@@ -145,7 +144,11 @@ a:hover {
 
 #logo { 
 	margin:0px;
-	width:750px;	
+	width:750px;
+	font-family: 'Chivo', sans-serif;
+	font-weight:900;
+	color:#FFF;
+	font-size:100px;
 }
 
 #contact_details {
