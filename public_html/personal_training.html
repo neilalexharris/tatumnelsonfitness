@@ -2,7 +2,7 @@
 <html>
 	<head>
 		
-		<div id="header"></div>
+		<div id="head"></div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
@@ -10,6 +10,7 @@
 	  	<script type="text/javascript">
 		  	$(document).ready(
 		  		function(){
+					$('#head').load('head.html');
 		  			$('#header').load('header.html');
 		  			$('#menu').load('menu.html', highlightClass);
 		  			$('#social').load('social.html', highlightClass);
@@ -40,46 +41,38 @@
 
 	<body>
 		
-		<div class="row">
-			<div id="logo">
-				<img src="Images/Pngs/main_lightblue.png"/>
-			</div>
-			<div id="contact_details">
-				<br/>
-				<h3 class="lightblue">m: <span class="split">07738324442</span></h3>
-				<h3 class="lightblue">e: <span class="split">tate@tatumnelson.co.uk</span></h3>
-			</div>
-		</div>
+		<div id="header"></div>
 		
 		<div id="menu" class="lightblue"></div>
-
-		<div class="back-image">
-			<img class="banner" src="Images/Photos/tatum_banner_text.png" alt="Tatum Nelson Fitness main banner"/>
-			<h1 class="text-overlay"><b>At Tatum Nelson Fitness, we recognise that</br>everyone is unique</b>
-				</br>
-				</br>
-				This is why all my sessions, plans, &amp; packages</br>are designed
-				exclusively for you to ensure</br>you will reach your goals
-			</h1>
-		</div>
 		
-		<div id="main" class="lightblue">
-	
-						<img class="padding" src="Images/Photos/cj_tate_running_250.png" align="right" alt="Tatum training Colin Jackson"/>
-			    		<h1 class="lightblue">Personal Training</h1>
-						<br>
+		<div id="main">
+			<div id="found_header" class="row">
+				<div class="col-12">
+					<h1 class="lightblue block-title" align="center">Personal Training</h1>
+				</div>
+			</div>
+			
+			<p>Personal Training with Tatum can cover a range of goals, including:</p>
+			
+			<div class="row">
+				<div class="col-3 pad-block">
+					<h3 class="lightblue block-title">Weight Loss</h3>
+					<p>Shift stubborn weight and keep it off!</p>
+				</div>
+				<div class="col-3 pad-block block-title">
+					<h3 class="lightblue">Cardiovascular Fitness</h3>
+					<p>Train for health, lower blood pressure, nurture your heart, be healthy and happy!</p>
+				</div>
+			</div>
 
-						<p>Personal Training with Tatum can cover a range of goals, including:</p>
-						<br/>
-						<ul>
-
-								<li><b class="lightblue">Weight Loss</b> - shift stubborn weight and keep it off!</li>
-								<li><b class="lightblue">Cardiovascular Fitness</b> - train for health, lower blood pressure, nurture your heart, be healthy and happy!</li>
-								<li><b class="lightblue">Pre &amp; Post Natal Programmes</b> - for mums to be, or for women that have just given birth, Tatum can get you back into shape and shift the pounds safely and effectively.</li>
-								<li><b class="lightblue">Improved Well-being</b> - feel better, small steps lead to big gains - excellent stress relief!</li>
-								<li><b class="lightblue">Nutrition Advice</b> - Diet &amp; Weight Management to guide you to start eating better and to enhance your fitness programme success</li>
-								<li><b class="lightblue">Strength</b> - with the focus on total body strength, this is for the client that wants to attain power and strength effectively!</span></li>
-								<li><b class="lightblue">Core Conditioning</b> - a strong core is the foundation upon which all successful workout programmes must be built!</li>
+				<!--<ul>
+					<li><b class="lightblue">Weight Loss</b> - shift stubborn weight and keep it off!</li>
+					<li><b class="lightblue">Cardiovascular Fitness</b> - train for health, lower blood pressure, nurture your heart, be healthy and happy!</li>
+					<li><b class="lightblue">Pre &amp; Post Natal Programmes</b> - for mums to be, or for women that have just given birth, Tatum can get you back into shape and shift the pounds safely and effectively.</li>
+					<li><b class="lightblue">Improved Well-being</b> - feel better, small steps lead to big gains - excellent stress relief!</li>
+					<li><b class="lightblue">Nutrition Advice</b> - Diet &amp; Weight Management to guide you to start eating better and to enhance your fitness programme success</li>
+					<li><b class="lightblue">Strength</b> - with the focus on total body strength, this is for the client that wants to attain power and strength effectively!</span></li>
+					<li><b class="lightblue">Core Conditioning</b> - a strong core is the foundation upon which all successful workout programmes must be built!</li>
 
 						</ul>
 						<br/>
@@ -97,9 +90,10 @@
 						profile; go through with you your fitness goals and aspirations and any fears you may have and she will
 						take the time to look at your body biomechanics ensuring she can devise a programme unique to you.</p>	
 
-
+						
 			<a name="triathlon"><table class="main" cellpadding=0, cellspacing=10></a>
-
+				<div class="row">
+					<div class="col-12 block-title">
 						<h1 class="lightblue">More specialised services...</h1>
 						<br/>
 	
@@ -164,7 +158,8 @@
 			    		<p>Providing preparation for events ranging from 5km and 10km runs to cycling sportives, at Tatum Nelson Fitness, we can structure a 6, 8, or even 12 week plan purely for that single event.</p>
 						<br/>
 						<p>There is nothing like standing on the start line knowing that you are 100% prepared.  With a specific plan the guesswork can be eliminated and you can ensure that everything in the training leading up to the event is tailored for your goal.</p>
-	
+				</div>
+			</div>-->
 		</div>
 		
 		<div id="social"></div>
