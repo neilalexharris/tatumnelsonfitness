@@ -29,10 +29,7 @@
 
 		<?php include "menu.php"; ?>
 
-		<table class="main" style="padding-left:40px; padding-right:40px;" cellpadding="0", cellspacing="0">
-			<tr>
-				<td class="greyborder">
-					<img class="padding" src="Images/Photos/colin_jackson_profile_100.png" align="left" alt="Colin Jackson"/><br/><br/>
+			<img class="padding" src="Images/Photos/colin_jackson_profile_100.png" align="left" alt="Colin Jackson"/><br/><br/>
 
 			<p class="<?php echo $colClass; ?>"><em>"Tatum has rekindled the original definition of gymnasium - this is to work our mind and body. 
 			She manages to make this happen. After our sessions I feel both my mind and body are refreshed and I am prepared for the day."</em></p>
