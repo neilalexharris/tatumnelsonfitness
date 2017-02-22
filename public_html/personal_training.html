@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+
 		<div id="head"></div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -14,15 +14,15 @@
 		  			$('#header').load('header.html');
 		  			$('#menu').load('menu.html', highlightClass);
 		  			$('#social').load('social.html', highlightClass);
-		  			$("#footer").load('footer.html');
+		  			$("#footer").load('footer.html', highlightClass);
 				});
 		</script>
-		
+
 		<script>
 			function highlightClass(){
 				$('.highlight').addClass("lightblue");
 			}
-		</script>			
+		</script>
 
 		<script type="text/javascript">
 
@@ -40,18 +40,18 @@
 	</head>
 
 	<body>
-		
+
 		<div id="header"></div>
-		
+
 		<div id="menu" class="lightblue"></div>
-		
+
 		<div id="main">
 			<div id="found_header" class="row">
 				<div class="col-12">
 					<h1 class="lightblue block-title" align="center">Personal Training</h1>
 				</div>
 			</div>
-			
+
 			<p>Personal Training with Tatum can cover a range of goals, including:</p>
 			</br>
 			<div class="row pad-block">
@@ -85,8 +85,8 @@
 				</div>
 				<div class="col-2 margin-block block-title">
 					<h3 class="lightblue">Run Analysis</h3>
-					<p>Tatum draws on her 20 years experience at the athletics track, and the knowledge she has gathered 
-					from some of the best physiotherapists and analysts from around the world to give you straight-to-the-point advice 
+					<p>Tatum draws on her 20 years experience at the athletics track, and the knowledge she has gathered
+					from some of the best physiotherapists and analysts from around the world to give you straight-to-the-point advice
 					about running technique, shoes and biomechanics</p>
 				</div>
 			</div>
@@ -103,17 +103,17 @@
 					</br>
 
 					<h3 class="lightblue">Initial Consultation (Free)</h3>
-					<p>This initial hour will be spent with Tatum where she will assess your fitness 
+					<p>This initial hour will be spent with Tatum where she will assess your fitness
 					profile; go through with you your fitness goals and aspirations and any fears you may have and she will
 					take the time to look at your body biomechanics ensuring she can devise a programme unique to you.</p>
 				</div>
 			</div>
 		</div>
-		
+
 		<div id="social"></div>
 
-		<div id="footer" class="lightblue"></div>
+		<div id="footer"></div>
 
 	</body>
-	
+
 </html>
