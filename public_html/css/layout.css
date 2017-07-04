@@ -156,6 +156,12 @@ a:hover {
 	font-size:100px;
 }
 
+#sub-logo {
+	font-weight: 600;
+	font-size: 50px;
+	color: #FFF;
+}
+
 #contact_details {
 	width:320px;
 }
