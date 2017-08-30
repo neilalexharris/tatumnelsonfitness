@@ -1,7 +1,7 @@
 * {
 	/*background-color: #000;*/
-	font-family: 'Chivo', sans-serif;
-	font-weight:300;
+	font-family: 'Raleway';
+	font-weight:100;
 	font-style: normal;
 	max-width:1200px;
 	-webkit-box-sizing: border-box;
@@ -89,6 +89,14 @@ h3 {
 	color: #FFF;
 }
 
+h4 {
+	font-size: 70px;
+	font-weight:normal;
+	margin:0px 0px 0px 0px;
+	font-family: 'Chivo', sans-serif;
+	font-weight:800;
+}
+
 p {
 	color:#999;
 	font-size: 18px;
@@ -153,15 +161,15 @@ a:hover {
 #logo {
 	margin:0px;
 	width:750px;
-	font-family: 'Chivo', sans-serif;
-	font-weight:600;
+	/*font-family: 'Chivo', sans-serif;*/
+	font-weight:300;
 	color:#FFF;
 	font-size:100px;
 }
 
 #sub-logo {
-	font-weight: 200;
-	font-size: 50px;
+	font-weight: 100;
+	font-size: 28px;
 	color: #FFF;
 }
 
