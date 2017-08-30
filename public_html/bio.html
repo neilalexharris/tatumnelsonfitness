@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+
 		<div id="head"></div>
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> -->
 		<script type="text/javascript" src="js/jquery.js"></script>
 
 		<script type="text/javascript">
@@ -12,12 +12,13 @@
 				function(){
 					$('#head').load('head.html');
 					$('#header').load('header.html');
-					$('#menu').load('menu.html', highlightClass);
-					$('#social').load('social.html', highlightClass);
-					$("#footer").load('footer.html', highlightClass);
+					$('#menu').load('menu.html');
+					$('#social').load('social.html');
+					$("#footer").load('footer.html');
+					$(window).bind('load', highlightClass);
 				});
 		</script>
-		
+
 		<script>
 			function highlightClass(){
 				$('.highlight').addClass("lightblue");
@@ -40,17 +41,17 @@
 	</head>
 
 	<body>
-		
+
 		<div id="header"></div>
-		
+
 		<div id="menu" class="lightblue"></div>
-		
+
 		<div id="main" class="lightblue">
 			<h1 class="lightblue">About Me</h1>
 			<br/>
-			
+
 			<img class="img-pad" src="Images/Photos/tatum_profile_rounded2_small.png" align="right" alt="Tatum Nelson"/>
-			
+
 			<p>Having a wealth of experience as an elite athlete over 100m, 200m and 400m, Tatum competed for Great Britain and
 			England on many occasions and she offers a rare insight into the world of elite sport</p>
 			<br/>
@@ -68,11 +69,11 @@
 			other nations approach fitness and she incorporates this into her training programmes</p>
 			<br/>
 
-			<p>Also a trained dancer, Tatum completed ballet training to Elementary Level, and it was here that her 
+			<p>Also a trained dancer, Tatum completed ballet training to Elementary Level, and it was here that her
 			passion for fitness began</p>
-			</br>	
+			</br>
 		</div>
-		
+
 		<div id="social"></div>
 
 		<div id="footer" class="lightblue"></div>

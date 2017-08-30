@@ -4,17 +4,18 @@
 
 		<div id="head"></div>
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> -->
 		<script type="text/javascript" src="js/jquery.js"></script>
 
 	  	<script type="text/javascript">
 		  	$(document).ready(
 		  		function(){
 					$('#head').load('head.html');
-		  			$('#header').load('header.html');
+		  			$('#header').load('header.html', highlightClass);
 		  			$('#menu').load('menu.html', highlightClass);
 		  			$('#social').load('social.html', highlightClass);
 		  			$("#footer").load('footer.html', highlightClass);
+						$(window).bind('load', highlightClass);
 				});
 		</script>
 
