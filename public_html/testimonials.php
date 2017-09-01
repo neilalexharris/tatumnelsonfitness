@@ -43,7 +43,7 @@
 		<div id="main">
 			<div class="row h-pad">
 				<div class="col-3" align=center>
-					<img src="Images/Photos/colin_jackson_profile_100.png" alt="Colin Jackson"/>
+					<img src="images/Photos/colin_jackson_profile_100.png" alt="Colin Jackson"/>
 				</div>
 				<div class="col-8">
 					<p><em>"Tatum has rekindled the original definition of gymnasium - this is to work our mind and body.
@@ -64,13 +64,13 @@
 				    swimmer</em></p>
 				</div>
 				<div class="col-3" align=center>
-					<img src="Images/Photos/foz_profile_100.png" alt="Mark Foster"/>
+					<img src="images/Photos/foz_profile_100.png" alt="Mark Foster"/>
 				</div>
 			</div>
 
 			<div class="row h-pad">
 				<div class="col-3" align=center>
-					<img class="padding" src="Images/Photos/neil_profile_100.png" alt="Neil Harris"/>
+					<img class="padding" src="images/Photos/neil_profile_100.png" alt="Neil Harris"/>
 				</div>
 				<div class="col-8">
 			    <p><em>"After a disappointing season last year, I started working with Tatum to improve

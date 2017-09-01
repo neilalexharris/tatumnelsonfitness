@@ -50,7 +50,7 @@
 		</div>
 
 		<div>
-			<img class="banner" src="Images/Photos/philo_banner_text.png" alt="Tatum's philosophy"/>
+			<img class="banner" src="images/Photos/philo_banner_text.png" alt="Tatum's philosophy"/>
 		</div>
 
 		<div id="main">

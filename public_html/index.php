@@ -41,7 +41,7 @@
 		</div>
 
 		<div class="back-image">
-			<img class="banner" src="Images/Photos/tatum_banner_textp.png" alt="Tatum Nelson Fitness main banner"/>
+			<img class="banner" src="images/Photos/tatum_banner_textp.png" alt="Tatum Nelson Fitness main banner"/>
 		</div>
 
 		<div id='main'>
