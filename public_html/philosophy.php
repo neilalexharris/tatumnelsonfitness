@@ -2,61 +2,52 @@
 <html>
 	<head>
 
-		<div id="head"></div>
+		<?php include 'head.html'; ?>
 
-		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 
-		<script type="text/javascript">
-			$(document).ready(
-				function(){
-					$('#head').load('head.html');
-					$('#header').load('header.html');
-					$('#menu').load('menu.html');
-					$('#social').load('social.html');
-					$("#footer").load('footer.html');
-					$(".dynamic").hide();
-					$(window).bind('load', highlightClass);
-				});
-
-			$(document).ready(
-				function(){
-					$('#found_header').click(
-						function(){
-							$('#found_text').slideToggle(1000)
-							});
-					$('#work_header').click(
-						function(){
-							$('#work_text').slideToggle(1000)
-							});
-				});
-		</script>
 		<script>
-			function highlightClass(){
+			$(document).ready(
+				function (){
 				$('.highlight').addClass("pink");
-			}
+				$('#found_header').click(
+					function(){
+						$('#found_text').slideToggle(1000)
+						});
+				$('#work_header').click(
+					function(){
+						$('#work_text').slideToggle(1000)
+						});
+				$(".dynamic").hide();
+			});
 		</script>
 
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23430411-1']);
-		  _gaq.push(['_trackPageview']);
+			 var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-23430411-1']);
+				_gaq.push(['_trackPageview']);
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
 
 		</script>
+
 	</head>
 
 	<body>
 
-		<div id="header"></div>
+		<div id='header'>
+			<?php include 'header.html'; ?>
+		</div>
 
-		<div id="menu" class="pink"></div>
+		<div id='menu'>
+			<?php include 'menu.html'; ?>
+		</div>
 
 		<div>
 			<img class="banner" src="Images/Photos/philo_banner_text.png" alt="Tatum's philosophy"/>
@@ -161,9 +152,13 @@
 			</div>
 		</div>
 
-		<div id="social"></div>
+		<div id='social'>
+			<?php include 'social.html'; ?>
+		</div>
 
-		<div id="footer"></div>
+		<div id='footer'>
+			<?php include 'footer.html'; ?>
+		</div>
 
 	</body>
 </html>

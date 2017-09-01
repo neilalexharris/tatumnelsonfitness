@@ -36,10 +36,6 @@
 			<?php include 'header.html'; ?>
 		</div>
 
-		<!-- <div id="footer_banner">
-			<h3>Personal Training &amp; Pilates in Sevenoaks, Tonbridge &amp; Tunbridge Wells</h3>
-		</div> -->
-
 		<div id='menu'>
 			<?php include 'menu.html'; ?>
 		</div>
