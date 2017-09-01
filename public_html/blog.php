@@ -41,9 +41,9 @@
 		</div>
 
 		<div class="row">
-			<div class="col-3">
+			<div class="col-3 pad-block">
 				<p class="block-title"><a class="pink" href="#blog8">A Focus on Health</a></p>
-				<p class="block-title"><a class="pink block-title" href="#blog7">Back to Basics</a></p>
+				<p class="block-title"><a class="pink" href="#blog7">Back to Basics</a></p>
 				<p class="block-title"><a class="pink" href="#blog6">Olympic Opening Ceremony</a></p>
 				<p class="block-title"><a class="pink" href="#blog5">Barefoot Running for the Neutral Runner</a></p>
 				<p class="block-title"><a class="pink" href="#blog4">Pain - Not Necessarily Gain!</a></p>
