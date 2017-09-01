@@ -1,5 +1,5 @@
 Options +FollowSymlinks
-DirectoryIndex index.html
+DirectoryIndex index.php
 
 RewriteEngine on
 
