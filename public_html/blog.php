@@ -50,6 +50,7 @@
 				<p class="block-title"><a class="pink" href="#blog3">Strictly Dance Training!</a></p>
 				<p class="block-title"><a class="pink" href="#blog2">Defeat the Daunt</a></p>
 				<p class="block-title"><a class="pink" href="#blog1">Welcome to my Blog!</a></p>
+				<div id="footer_banner"></div>
 			</div>
 
 			<div class="col-8 pad-block">
