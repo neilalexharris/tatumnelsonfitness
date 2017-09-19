@@ -41,7 +41,19 @@
 		</div>
 
 		<div id="main">
-			
+			<div class="row pad-block">
+				<div class="col-3">
+					<a href="images/pdfs/bodyfit_feb_2012.pdf"><img class="banner" src="images/Photos/bodyfit_1.jpg"></a>
+				</div>
+				<div class="col-3 margin-block block-title">
+					<h3 class="highlight">BodyFit Magazine Feb '12</h3>
+					<a href="images/pdfs/bodyfit_jun_2012.pdf"><img class="banner" src="images/Photos/bodyfit_2.jpg"></a>
+				</div>
+				<div class="col-3 margin-block block-title">
+					<h3 class="highlight">BodyFit Magazine</h3>
+					<a href="images/pdfs/bodyfit_apr_2013.pdf"><img class="banner" src="images/Photos/bodyfit_3.jpeg"></a>
+				</div>
+			</div>
 		</div>
 
 		<div id='social'>

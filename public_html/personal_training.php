@@ -54,35 +54,35 @@
 			<p>Personal Training with Tatum can cover a range of goals, including:</p>
 			</br>
 			<div class="row pad-block">
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Weight Loss</h3>
 					<p>Shift stubborn weight and keep it off!</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Cardiovascular Fitness</h3>
 					<p>Train for health, lower blood pressure, nurture your heart, be healthy and happy!</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 						<h3 class="lightblue">Pre &amp; Post Natal Programmes</h3>
 						<p>For mums to be, or for women that have just given birth, Tatum can get you back into shape and shift the pounds safely and effectively</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Improved Well-being</h3>
 					<p>Feel better, small steps lead to big gains - excellent stress relief!</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Nutrition Advice</h3>
 					<p>Diet &amp; Weight Management to guide you to start eating better and to enhance your fitness programme success</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Strength</h3>
 					<p>With the focus on total body strength, this is for the client that wants to attain power and strength effectively!</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Core Conditioning</h3>
 					<p>A strong core is the foundation upon which all successful workout programmes must be built!</p>
 				</div>
-				<div class="col-2 margin-block block-title">
+				<div class="col-2 margin-block block-title flex">
 					<h3 class="lightblue">Run Analysis</h3>
 					<p>Tatum draws on her 20 years experience at the athletics track, and the knowledge she has gathered
 					from some of the best physiotherapists and analysts from around the world to give you straight-to-the-point advice
