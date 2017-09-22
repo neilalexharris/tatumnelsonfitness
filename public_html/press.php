@@ -10,7 +10,7 @@
 		<script>
 			$(document).ready(
 				function (){
-				$('.highlight').addClass("lightblue");
+				$('.highlight').addClass("purple");
 			});
 		</script>
 
@@ -42,16 +42,20 @@
 
 		<div id="main">
 			<div class="row pad-block">
-				<div class="col-3">
-					<a href="images/pdfs/bodyfit_feb_2012.pdf"><img class="banner" src="images/Photos/bodyfit_1.jpg"></a>
+				<div class="col-6">
+					<a href="images/Photos/bodyfit_feb_2012.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_feb_2012.jpg"></a>
 				</div>
-				<div class="col-3 margin-block block-title">
+			</div>
+			<div class="row pad-block">
+				<div class="col-6">
 					<h3 class="highlight">BodyFit Magazine Feb '12</h3>
-					<a href="images/pdfs/bodyfit_jun_2012.pdf"><img class="banner" src="images/Photos/bodyfit_2.jpg"></a>
+					<a href="images/Photos/bodyfit_jun_2012.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_jun_2012.jpg"></a>
 				</div>
-				<div class="col-3 margin-block block-title">
+			</div>
+			<div class="row pad-block">
+				<div class="col-6">
 					<h3 class="highlight">BodyFit Magazine</h3>
-					<a href="images/pdfs/bodyfit_apr_2013.pdf"><img class="banner" src="images/Photos/bodyfit_3.jpeg"></a>
+					<a href="images/Photos/bodyfit_apr_2013.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_apr_2013.jpg"></a>
 				</div>
 			</div>
 		</div>
