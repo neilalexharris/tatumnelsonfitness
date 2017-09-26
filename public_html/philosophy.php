@@ -61,7 +61,7 @@
 			</div>
 
 			<div id="found_text" class="row dynamic">
-				<div class="col-2 pad-block">
+				<div class="col-2 pad-block flex">
 					<h3 class="block-title pink">Bodyweight Strength</h3>
 
 					<p>When it comes to strength, the ability to master one's own bodyweight is often lost, and the focus switches to mastering a barbell, or weighted machine.
@@ -73,7 +73,7 @@
 					<p>At <font class="pink">Tatum Nelson Fitness</font>, the focus is on total body strength, and attaining power that belies ones size.</p>
 				</div>
 
-				<div class="col-2 pad-block">
+				<div class="col-2 pad-block flex">
 					<h3 class="block-title pink">Core Stability</h3>
 
 					<p>A strong core forms the platform from which a high level of fitness can be built and is as important
@@ -87,7 +87,7 @@
 					<p>At <font class="pink">Tatum Nelson Fitness</font>, foundations will be built so the client can continue to achieve.</p>
 				</div>
 
-				<div class="col-2 pad-block">
+				<div class="col-2 pad-block flex">
 					<h3 class="block-title pink">Cardiovascular Fitness</h3>
 
 					<p>Cardiovascular fitness plays a leading role in overall health, and is often neglected in
@@ -122,7 +122,7 @@
 					</br>
 				</div>
 				<div class="row">
-					<div class="col-2 pad-block">
+					<div class="col-2 pad-block flex">
 						<h3 class="block-title pink">Tatum Nelson Fitness for Him <i class="fa fa-mars fa-lg" aria-hidden="true"></i></h3>
 
 						<p>"I have trained alongside the best
@@ -132,7 +132,7 @@
 						</br>
 					</div>
 
-					<div class="col-2 pad-block">
+					<div class="col-2 pad-block flex">
 						<h3 class="block-title pink">Tatum Nelson Fitness For Her <i class="fa fa-venus fa-lg" aria-hidden="true"></i></h3>
 
 						<p>"I practised ballet for years, and

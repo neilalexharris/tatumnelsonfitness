@@ -1,9 +1,9 @@
 * {
 	/*background-color: #000;*/
 	font-family: 'Raleway';
-	font-weight:100;
+	/*font-weight:100;*/
 	font-style: normal;
-	max-width:1200px;
+	max-width:1400px;
 	-webkit-box-sizing: border-box;
 	-mozox-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 .row {
-	display: flex;
+	display:flex;
 	flex-wrap: wrap;
 	width:100%;
 }
@@ -62,6 +62,10 @@
 
 .col-12 {
 	width:100%;
+}
+
+.page-break {
+		border-top:5px solid #333;
 }
 
 body {

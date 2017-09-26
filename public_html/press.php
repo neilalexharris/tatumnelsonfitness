@@ -10,7 +10,7 @@
 		<script>
 			$(document).ready(
 				function (){
-				$('.highlight').addClass("purple");
+				$('.highlight').addClass("lightblue");
 			});
 		</script>
 
@@ -41,21 +41,46 @@
 		</div>
 
 		<div id="main">
-			<div class="row pad-block">
-				<div class="col-6">
-					<a href="images/Photos/bodyfit_feb_2012.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_feb_2012.jpg"></a>
+			<!-- <div class='row'>
+				<div class="col-2">
+					<a href="https://www.yourfitnesstoday.com" target="parent"><img class="banner" src="images/logos/bodyfit_logo_bw.png" alt="bodyfit black and white logo"></a>
 				</div>
 			</div>
-			<div class="row pad-block">
-				<div class="col-6">
-					<h3 class="highlight">BodyFit Magazine Feb '12</h3>
-					<a href="images/Photos/bodyfit_jun_2012.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_jun_2012.jpg"></a>
+			<div class='row margin-block'>
+				<div class="col-12">
+					<a href="images/pdfs/bodyfit_apr_2013_1.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_apr_2013.jpg"></a>
 				</div>
 			</div>
-			<div class="row pad-block">
-				<div class="col-6">
-					<h3 class="highlight">BodyFit Magazine</h3>
-					<a href="images/Photos/bodyfit_apr_2013.jpg" target="parent"><img class="banner" src="images/Photos/bodyfit_apr_2013.jpg"></a>
+			<div class='row margin-block'>
+				<div class="col-12">
+					<a href="images/pdfs/bodyfit_jun_2012.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_jun_2012.jpg"></a>
+				</div>
+			</div>
+			<div class='row margin-block'>
+				<div class="col-12">
+					<a href="images/pdfs/bodyfit_feb_2012_1.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_feb_2012.jpg"></a>
+				</div>
+			</div> -->
+			<div id='footer_banner'>
+				<div class='row'>
+					<div class='col-9'>
+						<h1><a class='highlight' href='http://www.yourfitnesstoday.com' target='parent'>Bodyfit Magazine</a></h1>
+					</div>
+					<!-- <div class='col-2'>
+						<a href="https://www.yourfitnesstoday.com" target="parent"><img class="banner" src="images/logos/bodyfit_logo_bw.png" alt="bodyfit black and white logo"></a>
+					</div> -->
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-4 pad-block">
+					<a href="images/pdfs/bodyfit_apr_2013.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_apr_2013.jpg"></a>
+				</div>
+				<div class="col-4 pad-block">
+					<a href="images/pdfs/bodyfit_jun_2012.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_jun_2012.jpg"></a>
+				</div>
+				<div class="col-4 pad-block">
+					<a href="images/pdfs/bodyfit_feb_2012.pdf" target="parent"><img class="banner" src="images/Photos/bodyfit_feb_2012.jpg"></a>
 				</div>
 			</div>
 		</div>
