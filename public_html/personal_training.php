@@ -41,7 +41,7 @@
 		</div>
 
 		<div id="main">
-			<div id="found_header" class="row">
+			<div class="row">
 				<div class="col-12">
 					<h1 class="lightblue block-title" align="center">Personal Training</h1>
 				</div>
