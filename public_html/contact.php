@@ -1,25 +1,30 @@
-﻿<?php
-	$colClass = "goldtext";
-	$logoPath = "Images/Pngs/main_gold.png";
-?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 	<head>
-	
-		<?php include "header.html"; ?>
+
+		<?php include 'head.html'; ?>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+
+		<script>
+			$(document).ready(
+				function (){
+				$('.highlight').addClass("lightblue");
+			});
+		</script>
 
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23430411-1']);
-		  _gaq.push(['_trackPageview']);
+			 var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-23430411-1']);
+				_gaq.push(['_trackPageview']);
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
 
 		</script>
 
@@ -27,23 +32,36 @@
 
 	<body>
 
-		<?php include "menu.php"; ?>
+		<div id='header'>
+			<?php include 'header.html'; ?>
+		</div>
 
-		<table class="main" cellspacing="10">
-			<tr>
-				<td class="greyborder">
-		    		<h1 class="goldtext">Contact Details</h1>
-					<br/>
-					<p class="goldtext"><b>phone: </b><span class="whitetext"> 07738324442</span></p>
-					<br/>
-					<p class="goldtext"><b>email: </b><span class = "whitetext">tate@tatumnelson.co.uk</span></p>
-					<br/>
-					<p class="goldtext"><b>Having problems with the website?: </b><span class ="whitetext">website@tatumnelson.co.uk</span></p>
-				</td>
-			</tr> 
-		</table>
+		<div id='menu'>
+			<?php include 'menu.html'; ?>
+		</div>
 
-		<?php include "footer.php"; ?>
+		<div id="main" class="lightblue">
+			<h1 class="lightblue">Email</h1>
+			<br/>
+
+			<p>tate@tatumnelson.co.uk</p>
+			<br/>
+
+			<h1 class="lightblue">Mobile</h1>
+			<br/>
+
+			<p>07738324442</p>
+			<br/>
+
+		</div>
+
+		<div id='social'>
+			<?php include 'social.html'; ?>
+		</div>
+
+		<div id='footer'>
+			<?php include 'footer.html'; ?>
+		</div>
 
 	</body>
 </html>
