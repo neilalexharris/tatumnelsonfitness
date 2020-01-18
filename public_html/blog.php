@@ -40,14 +40,12 @@
 			<?php include 'menu.html'; ?>
 		</div>
 
-		<div class="row">
+		<div class="row" id="main">
 			<div class="col-3 pad-block">
 				<p class="block-title"><a class="pink" href="#blog8">A Focus on Health</a></p>
 				<p class="block-title"><a class="pink" href="#blog7">Back to Basics</a></p>
-				<p class="block-title"><a class="pink" href="#blog6">Olympic Opening Ceremony</a></p>
 				<p class="block-title"><a class="pink" href="#blog5">Barefoot Running for the Neutral Runner</a></p>
 				<p class="block-title"><a class="pink" href="#blog4">Pain - Not Necessarily Gain!</a></p>
-				<p class="block-title"><a class="pink" href="#blog3">Strictly Dance Training!</a></p>
 				<p class="block-title"><a class="pink" href="#blog2">Defeat the Daunt</a></p>
 				<p class="block-title"><a class="pink" href="#blog1">Welcome to my Blog!</a></p>
 				<div id="footer_banner"></div>
@@ -94,34 +92,6 @@
 
 					<p>Have fun!</p>
 					<br/>
-					<p><a class="pink" href="#">Back to top</a></p><br>
-				</div>
-
-				<div class="blog-pad">
-					<a name ="blog6"><h1 class="pink block-title">Olympic Opening Ceremony</h1></a>
-					<br/>
-					<!--<p class="pink">23-May-2011</p><br/>--><p>
-					<p>So the GB athletes are set to miss the 2012 Olympic Opening Ceremony...the decision has been made, but is it the right one?</p>
-					<br/>
-
-					<p>I can understand why some people may be upset at this choice but I think it probably is the right choice for the athletes, as performances
-					on the track are what will be remembered, not Opening Ceremony attendance.</p>
-					<br/>
-
-					<p>At the end of the day athletics is an individual event - yes they are all part of the Team GB but when they step up to the line, it
-					is them and them only. They are the ones that compete and it is a very solitary thing once on the track... you are on the World stage
-					 and the World judges you and you alone. It has to be about making the best choices for the athlete. The crowd may very well want to
-					 see GB athletes at the Opening Ceremony, and one could argue it is all part of the spirit of the Games. But I leave you with one thought -
-					 after women's 400m final, for example, if the GB athlete does not perform well - do you think the country will be thinking - oh well, it
-					 is ok, at least we saw her at the Opening Ceremony???? I somehow doubt it too!!!!</p>
-					<br/>
-
-					<p>Whatever your view, the decision has been made and the Games are going to be a fabulous event  - it is about performances and we all
-					want to see our guys do well in whatever their sport and discipline.</p>
-					<br/>
-
-					<p>Athlete's are remembered for their performances and this is where their legacy lies.</p>
-					<br>
 					<p><a class="pink" href="#">Back to top</a></p><br>
 				</div>
 
@@ -214,31 +184,6 @@
 					<p>P.S. Top tip - a lot of popular and widely publicised exercise "methods" can often involve an element of starvation -
 					which is why the results are achieved swiftly. But more often than not the results are not sustained - but more of this next time!!!</p>
 					<br/>
-					<p><a class="pink" href="#">Back to top</a></p><br>
-				</div>
-
-				<div class="blog-pad">
-					<a name ="blog3"><h1 class="pink block-title">Strictly Dance Training!</h1></a>
-					<br/>
-
-					<!--<p class="pink">11-Jan-2011</p><br/>-->
-					<p>My client Colin Jackson is currently rehearsing for the Strictly Come Dancing Tour and I am very proud!</p>
-					<br/>
-
-					<p>The power and strength and endurance of dancers is not to be underestimated.</p>
-					<br/>
-
-					<p>When he does these stints for Strictly, I definitely notice the difference in the gym, on top of
-					already brilliant core ability!</p>
-					<br/>
-
-					<p>There are many sporting disciplines that do ballet on the sly! I know of a certain ex-England
-					Rugby player that executed a lot of the main principles of ballet!</p>
-					<br/>
-
-					<p>As part of my training programmes, I offer a core-conditioning element that incorporates a
-					lot of these values! It puts a new spin on strength training.</p>
-					<br>
 					<p><a class="pink" href="#">Back to top</a></p><br>
 				</div>
 

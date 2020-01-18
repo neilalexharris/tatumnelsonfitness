@@ -44,8 +44,6 @@
 			<h1 class="lightblue">About Me</h1>
 			<br/>
 
-			<img class="img-pad" src="images/Photos/tatum_profile_rounded2_small.png" align="right" alt="Tatum Nelson"/>
-
 			<p>Having a wealth of experience as an elite athlete over 100m, 200m and 400m, Tatum competed for Great Britain and
 			England on many occasions and she offers a rare insight into the world of elite sport</p>
 			<br/>

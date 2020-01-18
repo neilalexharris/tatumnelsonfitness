@@ -10,7 +10,7 @@
 		<script>
 			$(document).ready(
 				function (){
-				$('.highlight').addClass("green");
+				$('.highlight').addClass("pink");
 			});
 		</script>
 
@@ -38,10 +38,6 @@
 
 		<div id='menu'>
 			<?php include 'menu.html'; ?>
-		</div>
-
-		<div class="back-image">
-			<img class="banner" src="images/Photos/tatum_banner_textp.png" alt="Tatum Nelson Fitness main banner"/>
 		</div>
 
 		<div id='main'>

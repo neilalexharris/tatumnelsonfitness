@@ -10,7 +10,7 @@
 		<script>
 			$(document).ready(
 				function (){
-				$('.highlight').addClass("green");
+				$('.highlight').addClass("lightblue");
 			});
 		</script>
 
@@ -42,37 +42,28 @@
 
 		<div id="main">
 			<div class="row h-pad">
-				<div class="col-3" align=center>
-					<img src="images/Photos/colin_jackson_profile_100.png" alt="Colin Jackson"/>
-				</div>
-				<div class="col-8">
+				<div class="col-12">
 					<p><em>"Tatum has rekindled the original definition of gymnasium - this is to work our mind and body.
 					She manages to make this happen. After our sessions I feel both my mind and body are refreshed and I am prepared for the day."</em></p>
 					<br>
-					<p class="green"><em>Colin Jackson | Former World Champion and World Record holder for 110m Hurdles</em></p>
+					<p class="highlight"><em>Colin Jackson | Former World Champion and World Record holder for 110m Hurdles</em></p>
 				</div>
 			</div>
 
 			<div class="row h-pad">
-				<div class="col-8">
+				<div class="col-12">
 					<p><em>"Training alongside Tatum, it quickly becomes apparent that
 				    her approach, drive, determination and tenacity to achieve is
 				    unparalleled. I have every faith that this work ethic, plus Tatum's experience
 				    as an elite athlete will enable you to reach your fitness goals"</em></p>
 					<br>
-					<p class="green"><em>Mark Foster | Former World Record holder and World Champion
+					<p class="highlight"><em>Mark Foster | Former World Record holder and World Champion
 				    swimmer</em></p>
-				</div>
-				<div class="col-3" align=center>
-					<img src="images/Photos/foz_profile_100.png" alt="Mark Foster"/>
 				</div>
 			</div>
 
 			<div class="row h-pad">
-				<div class="col-3" align=center>
-					<img class="padding" src="images/Photos/neil_profile_100.png" alt="Neil Harris"/>
-				</div>
-				<div class="col-8">
+				<div class="col-12">
 			    <p><em>"After a disappointing season last year, I started working with Tatum to improve
 					my conditioning and triathlon specific strength. This enabled me to take on much bigger training volumes
 					and in turn achieve some amazing race results, including winning my Age Group at the Royal Windsor Triathlon
@@ -80,7 +71,7 @@
 					I have also stayed injury free for the whole of last season, which is a first since I started triathlons
 					5 years ago"</em></p>
 					<br>
-				  <p class="green"><em>Neil Harris | GB Age Group Triathlete</em></p>
+				  <p class="highlight"><em>Neil Harris | GB Age Group Triathlete</em></p>
 				</div>
 			</div>
 
@@ -94,7 +85,7 @@
 					footballer and tennis player, but may perhaps have gone a little "to seed".  Current impression: a winner who is able to instil
 					in others what it takes to succeed: why not give it a go?"</em></p>
 					<br>
-					<p class="green"><em>Bob Pamplin | Chairman, ITAC Group</em></p>
+					<p class="highlight"><em>Bob Pamplin | Chairman, ITAC Group</em></p>
 				</div>
 			</div>
 
@@ -105,7 +96,7 @@
 					with optimum results. I have lost over a stone since working with Tatum and I am the fittest and most toned I have ever been and
 					I have also enjoyed the process. Every session is effective and fun."</em></p><br>
 
-					<p class="green"><em>Marie Knowles | Mother of 2</em></p>
+					<p class="highlight"><em>Marie Knowles | Mother of 2</em></p>
 				</div>
 			</div>
 		</div>

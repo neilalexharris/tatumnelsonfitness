@@ -49,10 +49,6 @@
 			<?php include 'menu.html'; ?>
 		</div>
 
-		<div>
-			<img class="banner" src="images/Photos/philo_banner_text.png" alt="Tatum's philosophy"/>
-		</div>
-
 		<div id="main">
 			<div id="found_header" class="row">
 				<div class="col-12">
@@ -60,7 +56,7 @@
 				</div>
 			</div>
 
-			<div id="found_text" class="row dynamic">
+			<div id="found_text" class="row">
 				<div class="col-2 pad-block flex">
 					<h3 class="block-title pink">Bodyweight Strength</h3>
 
@@ -109,7 +105,7 @@
 					<a class="pink" href="#/"><h1 class="block-title toggle" align="center">- The Way I Work -</h1></a>
 				</div>
 			</div>
-			<div id="work_text" class="row dynamic">
+			<div id="work_text" class="row">
 				<div>
 					<p>Tatum has developed a unique, effective approach to fitness that has proven success.</p>
 					</br>
