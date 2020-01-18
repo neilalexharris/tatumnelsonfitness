@@ -41,7 +41,14 @@
 		</div>
 
 		<div id='main'>
-			<?php include 'main.html'; ?>
+			<div class='row'>
+				<div class='col-8'>
+					<?php include 'main.html'; ?>
+				</div>
+				<div class='col-4'>
+					<img src='images/Photos/tate_run.jpg'></img>
+				</div>
+			</div>
 		</div>
 
 		<div id='social'>
