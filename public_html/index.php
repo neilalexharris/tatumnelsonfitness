@@ -10,7 +10,7 @@
 		<script>
 			$(document).ready(
 				function (){
-				$('.highlight').addClass("pink");
+				$('.highlight').addClass("orange");
 			});
 		</script>
 
@@ -46,7 +46,10 @@
 					<?php include 'main.html'; ?>
 				</div>
 				<div class='col-4'>
-					<img src='images/Photos/tate_run.jpg'></img>
+					<div class='back-image'>
+						<img style='opacity:0.2' src='images/Photos/tate_run.jpg' alt='Tatum Running'>
+						<h1 style='font-size:40px; color:#666' class='text-overlay highlight'>"Text to go over photo"</h1>
+					</div>
 				</div>
 			</div>
 		</div>
