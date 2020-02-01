@@ -36,19 +36,23 @@
 			<?php include 'header.html'; ?>
 		</div>
 
-		<div id='menu'>
-			<?php include 'menu.html'; ?>
-		</div>
-
 		<div id='main'>
 			<div class='row'>
 				<div class='col-8'>
-					<?php include 'main.html'; ?>
-				</div>
-				<div class='col-4'>
-					<div class='back-image'>
-						<img style='opacity:0.2' src='images/Photos/tate_run.jpg' alt='Tatum Running'>
-						<h1 style='font-size:40px; color:#666' class='text-overlay highlight'>"Text to go over photo"</h1>
+					<div id='menu'>
+						<div>
+							<h1 class='highlight'>New website under construction</h1>
+						</div>
+						<div>
+							<p>Please check back soon!</p>
+						</div>
+						<div>
+							<p>For enquiries, please contact me on the below details:</p>
+							<h1 class='highlight'>Email:</h1>
+							<p>tate@tatumnelson.com</p>
+							<h1 class='highlight'>Phone</h1>
+							<p>07738324442</p>
+						</div>
 					</div>
 				</div>
 			</div>
