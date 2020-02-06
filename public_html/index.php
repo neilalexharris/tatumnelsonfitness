@@ -45,7 +45,7 @@
 				<div id='main' class='text-center'>
 					<h1>For enquiries, please contact me on the below details:</h1></br>
 					<h1 class='highlight'>Email:</h1></br>
-					<p>tate@tatumnelson.com</p></br>
+					<p>tate@ta<span class='hiddenmail'>REMOVE</span>tumnelson.com</p></br>
 					<h1 class='highlight'>Phone</h1></br>
 					<p>07738324442</p>
 				</div>
