@@ -37,14 +37,14 @@
 		</div>
 
 		<div>
-			<div class='row'>
+			<div class='row lightgrey'>
 				<div class='col-12'>
 					<div id='menu' class='text-center'>
-						<h2 class='highlight'>*** NEW WEBSITE UNDER CONSTRUCTION ***</h2></br>
-						<h1 class='lightgrey'>Please check back soon!</h1></br>
+						<h2 class='highlight'>NEW WEBSITE UNDER CONSTRUCTION</h2></br>
+						<h1>Please check back soon!</h1></br>
 					</div>
 					<div id='main' class='text-center'>
-						<h1 class='lightgrey'>For enquiries, please contact me on the below details:</h1></br>
+						<h1>For enquiries, please contact me on the below details:</h1></br>
 						<h1 class='highlight'>Email:</h1></br>
 						<p>tate@tatumnelson.com</p></br>
 						<h1 class='highlight'>Phone</h1></br>
