@@ -44,7 +44,7 @@
 			<h1 class="lightblue">Email</h1>
 			<br/>
 
-			<p>tate@tatumnelson.co.uk</p>
+			<p>tate@tat<span class='hiddenmail'>REMOVE</span>umnelson.co.uk</p>
 			<br/>
 
 			<h1 class="lightblue">Mobile</h1>
