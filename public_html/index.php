@@ -43,12 +43,10 @@
 		<div id='main'>
 			<div class='row'>
 				<div class='col-8'>
-					<?php include 'main.html'; ?>
 				</div>
-				<div class='col-4'>
-					<div class='back-image'>
-						<img style='opacity:0.2' src='images/Photos/tate_run.jpg' alt='Tatum Running'>
-						<h1 style='font-size:40px; color:#666' class='text-overlay highlight'>"Text to go over photo"</h1>
+				<div class='col-4 main-image h-pad'>
+					<div>
+						<h1 style='font-size:40px; color:#999'>Text to go over photo</h1>
 					</div>
 				</div>
 			</div>

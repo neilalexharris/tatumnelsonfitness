@@ -180,6 +180,24 @@ a:hover {
 	text-align:right;
 }
 
+.main-image {
+	text-align: center;
+	position: relative;
+}
+
+.main-image:before {
+    content: "";
+		background-image: url(../images/Photos/tate_run.jpg);
+		background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+		opacity: 0.8;
+		z-index: -1;
+}
+
 .logo {
 	margin:0px;
 	/*width:750px;*/
@@ -303,10 +321,10 @@ a:hover {
 	padding:40px;
 }
 
-.back-image {
+/* .back-image {
 	position: relative;
 	width: 100%;
-}
+} */
 
 .text-overlay {
 	position: absolute;
