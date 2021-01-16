@@ -159,8 +159,8 @@ a:hover {
 }*/
 
 #header {
-	padding-top:20px;
-	padding-bottom:70px;
+	padding-top:10px;
+	padding-bottom:20px;
 }
 
 #menu {
@@ -171,7 +171,7 @@ a:hover {
 }
 
 #main {
-	padding-top:50px;
+	padding-top:40px;
 	padding-bottom:20px;
 }
 
@@ -229,6 +229,9 @@ a:hover {
 	border-bottom:1px solid #999;
 }
 
+img#bio {
+	opacity: 0.7;
+}
 .center {
 	display:block;
 	margin:auto;
@@ -297,6 +300,10 @@ a:hover {
 	padding-bottom:10px;
 }
 
+.block {
+	padding: 40px;
+}
+
 .pad-block {
 	padding-right:20px;
 	padding-left:20px;
@@ -317,21 +324,10 @@ a:hover {
 	padding-bottom:30px;
 }
 
-.img-pad {
-	padding:40px;
-}
-
 /* .back-image {
 	position: relative;
 	width: 100%;
 } */
-
-.text-overlay {
-	position: absolute;
-	top:50px;
-	left:50px;
-	color:#000;
-}
 
 .greyborder {
 	border-bottom:1px solid #333;
