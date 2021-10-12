@@ -1,0 +1,58 @@
+* {
+	/*background-color: #000;*/
+	font-family: 'Baskerville', serif;
+	/*font-weight:100;*/
+	font-style: normal;
+	/* max-width:1400px; */
+	-webkit-box-sizing: border-box;
+	-mozox-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* colour classes */
+.green {
+	color:#9F0;
+}
+
+.red {
+	color:#F00;
+}
+
+.pink {
+	color:#F06;
+}
+
+.orange {
+	color:#F90;
+}
+
+.lightblue {
+	color:#09F;
+}
+
+.gold {
+	color:#FF0;
+}
+
+.purple {
+	color:#96F;
+}
+
+.white {
+	color:#FFF;
+}
+
+.grey {
+	color:#666;
+}
+
+.lightgrey {
+	color:#999;
+}
+
+/* link classes */
+a:hover {
+	color:#F90;
+	border::none;
+}
