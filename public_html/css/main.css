@@ -57,9 +57,19 @@
 }
 
 /* link classes */
+a:link {
+	text-decoration:none;
+	border:none;
+}
+
+a:visited {
+	text-decoration:none;
+	border:none;
+}
+
 a:hover {
 	color:#F90;
-	border::none;
+	border:none;
 }
 
 /* BANNER */
@@ -84,4 +94,18 @@ a:hover {
 
 #banner .banner-inner {
 	padding-top: 100px;
+}
+
+#about .img-bio {
+	opacity: 0.8;
+}
+
+.footer p, .footer a:link, .footer span {
+	/* font-family: Arial; */
+	/* font-size: 0.9rem; */
+	/* color: #666; */
+}
+
+#main-footer a:hover {
+	color: #FFF;
 }
