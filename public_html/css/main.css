@@ -52,6 +52,10 @@
 	color:#999;
 }
 
+.offwhite {
+	color: rgb(220,220,220);
+}
+
 /* link classes */
 a:hover {
 	color:#F90;
