@@ -106,6 +106,16 @@ a:hover {
 	/* color: #666; */
 }
 
+#main-footer a:link {
+	color: #999;
+}
+
+#main-footer a:visited {
+	/* text-decoration: none;
+	border: none; */
+	color: #999;
+}
+
 #main-footer a:hover {
-	color: #FFF;
+	color: #F90;
 }
