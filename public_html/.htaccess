@@ -2,8 +2,7 @@ Options +FollowSymlinks
 DirectoryIndex index.php
 
 RewriteEngine on
-
-RewriteCond %{HTTP_HOST} ^www.tatumnelson.com$ [OR]
-RewriteCond %{HTTP_HOST} ^tatumnelson.com$ [OR]
-RewriteCond %{HTTP_HOST} ^tatumnelson.co.uk$
-RewriteRule ^ https://www.tatumnelson.co.uk [R=301,L]
+RewriteRule ^.well-known/ - [L,NC]
+RewriteRule "(^|/)\." - [F]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
