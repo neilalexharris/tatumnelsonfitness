@@ -35,15 +35,34 @@
 
 	</head>
 
-	<body>
+	<body data-spy="scroll" data-target="#main-nav" id="home">
 		<header>
-			<nav class="navbar navbar-expand-md">
+			<nav class="navbar navbar-expand-md navbar-light fixed-top" id="main-nav">
 				<div class="container-fluid">
 	        <!-- <a href="#" class="navbar-brand"><span class="h3">Tatum Nelson.</span></a> -->
 	        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 	            <span class="navbar-toggler-icon"></span>
 	        </button>
-	        <div class="collapse navbar-collapse" id="navbarCollapse">
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services">SERVICES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+	        <div class="collapse navbar-collapse">
 	            <div class="navbar-nav ms-auto">
 									<a class="px-3" href="http://www.twitter.com/tatumnelson_pt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
 									<a class="px-3" href="https://www.facebook.com/TatumNelsonPersonalTrainer/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
@@ -59,7 +78,7 @@
 			<div id="logo">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-12 py-5 text-center">
+						<div class="col-lg-12 text-center">
 							<h1 class="display-1">Tatum Nelson<span class="orange">.</span></h1>
 							<h3>Exercise<span class="orange">.</span> Wellbeing<span class="orange">.</span> Lifestyle<span class="orange">.</span></h3>
 						</div>
@@ -220,11 +239,18 @@
 			</div>
 		</footer>
 
-		<script>
-			$('.year').text(new Date().getFullYear());
-		</script>
 		<!-- JavaScript Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+		<script>
+			$('.year').text(new Date().getFullYear());
+
+			// init scrollspy
+			var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+				  target: '#main-nav', offset: 50
+				})
+
+		</script>
 	</body>
 
 </html>
