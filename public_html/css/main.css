@@ -135,7 +135,7 @@ a:visited {
 	color: rgb(220,220,220) !important;
 } */
 
-#main-footer span, #main-footer a:visited  {
+#main-footer span, #main-footer a:link, #main-footer a:visited  {
 	color: rgb(220,220,220);
 }
 
