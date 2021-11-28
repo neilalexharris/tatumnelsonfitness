@@ -67,8 +67,8 @@ a:visited {
 	border:none;
 }
 
-a:hover {
-	color:#000;
+.social:hover {
+	color:#666;
 	border:none;
 }
 
@@ -122,6 +122,11 @@ a:hover {
 
 #about .img-bio {
 	opacity: 0.8;
+}
+
+/* CONTACT */
+#contact i {
+	text-decoration: none;
 }
 
 /* .footer p, .footer a:link, .footer span {
