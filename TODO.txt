@@ -1,0 +1,20 @@
+********************************************************************************
+*********************************** TODO ***************************************
+********************************************************************************
+
+HIGH:
+- Anchor with padding
+- Add new photo to About section (x2?)
+- Testimonials carousel
+- Page Title
+- Page Description
+- New email account
+
+
+MEDIUM:
+- Remove ScrollSpy
+- SEO
+- Block pages with meta robots (meta name='robots', content='noindex,follow')
+
+
+LOW:
