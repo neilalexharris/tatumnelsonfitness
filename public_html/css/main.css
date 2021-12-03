@@ -11,6 +11,10 @@
 	color:#666;
 }
 
+.large {
+	font-size: 1.5rem;
+}
+
 /* colour classes */
 .green {
 	color:#9F0;
@@ -126,7 +130,12 @@ a:visited {
 
 /* TESTIMONIALS */
 #testimonials img {
+	max-width:50%;
 	opacity: 1;
+}
+
+#testimonials .carousel {
+	min-height:300px;
 }
 
 /* .footer p, .footer a:link, .footer span {

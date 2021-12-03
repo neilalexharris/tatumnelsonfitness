@@ -159,7 +159,7 @@
 			<div id="about">
 				<div class="container">
 					<div class="row my-5">
-						<div class="col-lg-6 offset-lg-1 col-xl-5 offset-xl-2 p-3">
+						<div class="col-lg-8 p-3">
 							<h1>About Me<span class="orange">.</span></h1>
 							<p class="lead pt-4 text-justify">
 							My background is as an international track and field athlete. I competed for Great Britain and England over 100m, 200m and 400m on many occasions, working with and training alongside some of the World’s best coaches and athletes. I incorporate the benefits of this rare insight into the world of elite sport with all my personal training. I want to share the knowledge I have gained, as all of this experience can be adapted and applied to benefit my clients in sessions with me.
@@ -195,23 +195,42 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-4 p-5">
-							<blockquote>
-								<p class="lead">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis dolorum voluptatibus, numquam vero est totam atque laborum. Nesciunt eum molestiae aperiam ea animi iste, debitis consectetur saepe. Eveniet, tempore!"</p>
-								<footer class="blockquote-footer">Colin Jackson</footer>
-							</blockquote>
-						</div>
-						<div class="col-lg-4 p-5">
-							<blockquote>
-								<p class="lead">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis dolorum voluptatibus, numquam vero est totam atque laborum. Nesciunt eum molestiae aperiam ea animi iste, debitis consectetur saepe. Eveniet, tempore!"</p>
-								<footer class="blockquote-footer">Colin Jackson</footer>
-							</blockquote>
-						</div>
-						<div class="col-lg-4 p-5">
-							<blockquote>
-								<p class="lead">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis dolorum voluptatibus, numquam vero est totam atque laborum. Nesciunt eum molestiae aperiam ea animi iste, debitis consectetur saepe. Eveniet, tempore!"</p>
-								<footer class="blockquote-footer">Colin Jackson</footer>
-							</blockquote>
+						<div class="col-md-10 m-auto py-5">
+							<div id="t-slider" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+									<button type="button" data-bs-target="#t-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#t-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#t-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="row">
+											<div class="col-lg-7">
+												<blockquote>
+													<p class="large">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis dolorum voluptatibus, numquam vero est totam atque laborum. Nesciunt eum molestiae aperiam ea animi iste, debitis consectetur saepe. Eveniet, tempore!"</p>
+													<footer class="blockquote-footer">Colin Jackson</footer>
+												</blockquote>
+											</div>
+											<div class="col-lg-5 pb-5 pb-lg-0 text-center">
+												<img src="images/photos/colin_and_tatum_bw.jpg" lt="Tatum Nelson" class="img-fluid rounded-circle">
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<blockquote>
+											<p class="large"><i class="fas fa-quote-left"></i> I have been training with Tatum for 6 years and it has proved to be the best investment I have ever made. Always attentive, she has the amazing ability to provide just the right practical advice and encouragement I need to achieve my goals. She expertly adapts my sessions to my needs – ranging from Pilates to a full-on HIT routine. Sessions are always fun and exhilarating! <i class="fas fa-quote-right"></i></p>
+											<footer class="blockquote-footer">Sarah H</footer>
+										</blockquote>
+									</div>
+									<div class="carousel-item">
+										<blockquote>
+											<p class="large">"I joined Tatum’s Pilates class 6/7 years ago. Tatum is reliable and professional. Tatum will accommodate most levels of fitness and will add or take away exercises dependent on your personal needs.
+											Tatum is an excellent teacher who is very vigilant with her clients, she will correct their positions before moving onto the next step of the exercise."</p>
+											<footer class="blockquote-footer">Sheila S</footer>
+										</blockquote>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -277,6 +296,15 @@
 				  target: '#main-nav', offset: 50
 				})
 
+		</script>
+
+		<script>
+			var tCarousel = document.querySelector('#t-slider')
+			var carousel = new bootstrap.Carousel(tCarousel, {
+			  interval: 15000,
+			  keyboard: true,
+				pause: 'hover'
+			})
 		</script>
 	</body>
 
