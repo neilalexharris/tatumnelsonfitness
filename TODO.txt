@@ -3,16 +3,13 @@
 ********************************************************************************
 
 HIGH:
-- Anchor with padding
-- Add new photo to About section (x2?)
-- Testimonials carousel
+- media queries to tweak image size
 - Page Title
 - Page Description
 - New email account
 
 
 MEDIUM:
-- Remove ScrollSpy
 - SEO
 - Block pages with meta robots (meta name='robots', content='noindex,follow')
 - Remove navlinks, burger by default (with 'Menu')?
@@ -20,3 +17,4 @@ MEDIUM:
 LOW:
 - Burger icon change
 - Convert Privacy and T&Cs to .html
+- Add 'Featured in' section with logos
