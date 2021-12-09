@@ -12,9 +12,7 @@ HIGH:
 MEDIUM:
 - SEO
 - Block pages with meta robots (meta name='robots', content='noindex,follow')
-- Remove navlinks, burger by default (with 'Menu')?
 
 LOW:
-- Burger icon change
 - Convert Privacy and T&Cs to .html
 - Add 'Featured in' section with logos
