@@ -197,8 +197,18 @@ a:visited {
 	min-height:300px;
 }
 
+#testimonials .blockquote {
+	color: #999;
+}
+
 #testimonials .blockquote-footer {
+	color: #666;
 	font-size: 1.25rem;
+}
+
+#testimonials blockquote i {
+	color: #F90;
+	opacity: 1;
 }
 
 /* .footer p, .footer a:link, .footer span {
