@@ -1,54 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.tatumnelson.co.uk/</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
+  <loc>https://www.tatumnelson.co.uk/</loc>
+  <lastmod>2022-02-01T11:59:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.tatumnelson.co.uk/index.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
+  <loc>https://www.tatumnelson.co.uk/index.html</loc>
+  <lastmod>2022-02-01T11:59:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.tatumnelson.co.uk/bio.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://www.tatumnelson.co.uk/privacy_policy.html</loc>
+  <lastmod>2022-02-01T11:59:35+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.tatumnelson.co.uk/philosophy.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.tatumnelson.co.uk/personal_training.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.tatumnelson.co.uk/testimonials.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.tatumnelson.co.uk/press.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.tatumnelson.co.uk/blog.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.tatumnelson.co.uk/termsandconditions.php</loc>
-  <lastmod>2017-09-01T11:59:35+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://www.tatumnelson.co.uk/termsandconditions.html</loc>
+  <lastmod>2022-02-01T11:59:35+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 </urlset>
