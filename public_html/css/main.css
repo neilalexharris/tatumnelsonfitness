@@ -33,11 +33,14 @@
 }
 
 .lightblue {
-	color:#09F;
+	/* color:#00c8d3; */
+	/* color:#00CE7F; */
+	/* color:#80c8d3; */
+	color:#7FC8D3; /*rgb(127,200,211) */
 }
 
 .gold {
-	color:#FF0;
+	color:#ffc200;
 }
 
 .purple {
@@ -84,7 +87,7 @@ a:visited {
 .nav-link:hover {
 	/* color:#F90!important; */
 	text-decoration: overline;
-	text-decoration-color: #F90;
+	text-decoration-color: #7FC8D3;
 }
 
 .navbar {
@@ -208,7 +211,7 @@ a:visited {
 }
 
 #testimonials blockquote i {
-	color: #F90;
+	color: #7FC8D3;
 	opacity: 1;
 }
 
@@ -223,5 +226,5 @@ a:visited {
 }
 
 #main-footer a:hover {
-	color: #F90;
+	color: #7FC8D3;
 }
