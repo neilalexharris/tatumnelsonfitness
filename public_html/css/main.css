@@ -220,7 +220,8 @@ a:visited {
 }
 
 /* FEATURED */
-#featured {
+#featured img {
+	opacity: 1;
 	/* min-height:400px; */
 }
 
@@ -229,6 +230,10 @@ a:visited {
 	/* font-size: 1.1rem;
 	color: rgb(220,220,220) !important;
 } */
+
+#main-footer .brdr {
+	border-bottom: 1px solid #666;
+}
 
 #main-footer span, #main-footer a:link, #main-footer a:visited  {
 	color: rgb(220,220,220);
