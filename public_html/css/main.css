@@ -212,6 +212,7 @@ a:visited {
 #testimonials .blockquote-footer {
 	color: #666;
 	font-size: 1.25rem;
+	padding-top: 1rem;
 }
 
 #testimonials blockquote i {
