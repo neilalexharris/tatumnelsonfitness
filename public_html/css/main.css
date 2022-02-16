@@ -188,7 +188,11 @@ a:visited {
 	opacity: 0.9;
 }
 
-/* PACKAGES */
+/* PROGRAMMES */
+
+#programmes a:link {
+	background-color: #7FC8D3;
+}
 
 /* TESTIMONIALS */
 #testimonials img {
