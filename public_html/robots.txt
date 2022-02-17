@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /Scripts
+Disallow: /1
 Disallow: /dev
 Disallow: /cgi-bin
 
