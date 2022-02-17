@@ -178,12 +178,6 @@ a:visited {
 	color: #F90;
 }
 
-#about .img-bio {
-	width: 50%;
-	height: auto;
-	opacity: 1;
-}
-
 /* PHILOSOPHY */
 
 #philosophy img {
@@ -192,8 +186,23 @@ a:visited {
 
 /* PROGRAMMES */
 
+#programmes {
+	padding-bottom: 200px;
+}
+
 #programmes a:link {
 	background-color: #7FC8D3;
+}
+
+/* ABOUT */
+
+#about {
+	padding-top:100px;
+}
+
+#about .img-bio {
+	margin-top: -250px;
+	opacity: 1;
 }
 
 /* TESTIMONIALS */
@@ -263,11 +272,6 @@ a:visited {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-	#about .img-bio {
-		width: 100%;
-		height: auto;
-	}
 
 }
 
