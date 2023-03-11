@@ -63,6 +63,14 @@
 	color: rgb(220,220,220);
 }
 
+.black {
+	color:#000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 /* link classes */
 a:link {
 	text-decoration:none;
