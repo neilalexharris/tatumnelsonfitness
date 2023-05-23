@@ -11,11 +11,13 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box; */
 }
+
 p {
   font-size: 1.25em;
 }
 
 a {
+	/* color: #F90; */
   font-size: inherit;
 }
 
@@ -25,19 +27,25 @@ span {
 
 /* link classes */
 a:link {
-  color: #F90;
+  /* color: #F90; */
 	/* text-decoration:none;
 	border:none; */
 }
 
 a:hover {
-  color: #F90;
+  color: inherit;
 }
 
-a:visited {
-	/* text-decoration:none;
-	border:none; */
-}
+/* SPEED_COACH */
+
+/* #speed_coach a:link {
+	color: #F90;
+} */
+
+/* a:visited {
+	text-decoration:none;
+	border:none;
+}  */
 
 .social:hover {
 	color:rgb(220,220,220);
