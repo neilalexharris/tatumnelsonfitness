@@ -59,6 +59,11 @@ a:hover {
 	/* border-radius: 1rem; */
 }
 
+#speed_coach h3 {
+	text-decoration: underline;
+	text-decoration-color: #F90;
+}
+
 #sc_logo {
 	background: url(../images/photos/speedcoach/hurdles_bw1.jpg);
 	background-repeat: no-repeat;
@@ -85,7 +90,7 @@ a:hover {
 }
 
 .block {
-	background-color: rgb(248,249,250);
+	background-color: rgb(240,240,240);
 }
 
 .train {
