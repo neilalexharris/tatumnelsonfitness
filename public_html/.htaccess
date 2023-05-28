@@ -1,5 +1,5 @@
-Options +FollowSymlinks
+#Options +FollowSymlinks
 
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.tatumnelson.co.uk/$1 [R,L]
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.tatumnelson.co.uk/$1 [R,L]
