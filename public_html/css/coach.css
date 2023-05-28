@@ -58,7 +58,7 @@ a:hover {
 	border-radius: 1rem;
 }
 
-#logo_bg {
+#sc_logo {
 	background: url(../images/photos/speedcoach/hurdles_bw1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -68,8 +68,38 @@ a:hover {
 	background-color: none;
 }
 
+#sc_logo .mid {
+	padding:120px 0;
+}
+
+#sc_logo h1 {
+	font-family: Monoton;
+	font-size: 5rem;
+	color: rgb(220,220,220);
+	text-align: center;
+}
+
+#sc_logo h3 {
+	color: rgb(220,220,220);
+	text-align: center;
+}
+
+.block {
+	border: 1px solid #333;
+	border-radius: 1rem;
+}
+
+.train {
+	/* font-family: 'Train One'; */
+	font-family: Monoton;
+}
+
 .dark_grey {
 		color: #333;
+}
+
+.dark {
+	color: rgb(0,0,50);
 }
 
 .overlay {
@@ -78,11 +108,11 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 400px;
-	background-color: rgba(240,240,240,0.6)
+	background-color: rgba(0,0,0,0.6)
 }
 
 .pad_100 {
-	padding-top: 100px;
+	padding-top: 150px;
 }
 
 #details {
