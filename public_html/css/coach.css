@@ -55,6 +55,7 @@ a:hover {
 #speed_coach .right_img {
 	/* margin-left: -200px; */
 	opacity: 1;
+	/* height:100%; */
 	/* border-radius: 1rem; */
 }
 
@@ -84,8 +85,7 @@ a:hover {
 }
 
 .block {
-	border: 1px solid #333;
-	border-radius: 1rem;
+	background-color: rgb(248,249,250);
 }
 
 .train {
