@@ -41,17 +41,6 @@ a:hover {
   color: inherit;
 }
 
-/* NAVBAR */
-.nav-link {
-	/* color: rgb(220,220,220) !important; */
-	font-size: 1.25rem;
-}
-.nav-link:hover {
-	/* color:#F90!important; */
-	text-decoration: overline;
-	text-decoration-color: #F90;
-}
-
 /* SPEED_COACH */
 
 #photo_bar .right_img {
@@ -143,15 +132,6 @@ h3 {
 #contact h3 {
 	text-decoration: none;
 }
-
-/* #speed_coach a:link {
-	color: #F90;
-} */
-
-/* a:visited {
-	text-decoration:none;
-	border:none;
-}  */
 
 .social:hover {
 	/* color:rgb(220,220,220); */
