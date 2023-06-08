@@ -3,4 +3,4 @@ Disallow: /1
 Disallow: /dev
 Disallow: /cgi-bin
 
-sitemap: http://www.tatumnelson.co.uk/sitemap.xml
+sitemap: https://www.tatumnelson.co.uk/sitemap.xml
