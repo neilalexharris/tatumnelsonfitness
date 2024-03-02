@@ -175,11 +175,15 @@ a:visited {
 }
 
 #testimonials .carousel {
-	min-height:450px;
+	min-height:350px;
+}
+
+#testimonials .carousel-indicators [data-bs-target] {
+	background-color: #F90;
 }
 
 #testimonials .blockquote {
-	font-size: 1.5rem;
+	/* font-size: 1.5rem; */
 	color: #999;
 }
 
@@ -190,7 +194,7 @@ a:visited {
 }
 
 #testimonials blockquote i {
-	color: #7FC8D3;
+	color: #F90;
 	opacity: 1;
 }
 
